@@ -37,6 +37,11 @@
       </tags>
   </entry>
   <entry>
+    <title>aa</title>
+    <url>//post/aa.html</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
     <title>CSDN逆向</title>
     <url>//post/CSDN%E9%80%86%E5%90%91.html</url>
     <content><![CDATA[<h1 id="CSDN逆向分析思路"><a href="#CSDN逆向分析思路" class="headerlink" title="CSDN逆向分析思路"></a><strong>CSDN逆向分析思路</strong></h1><h2 id="1-先定义表结构"><a href="#1-先定义表结构" class="headerlink" title="1.先定义表结构"></a>1.先定义表结构</h2><h4 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h4><ul>
@@ -277,24 +282,6 @@ print(resp.text)
       <tags>
         <tag>js 爬虫逆向</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>//post/hello-world.html</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo server<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo generate<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo deploy 简单带你<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
   </entry>
   <entry>
     <title>pysquery</title>
@@ -558,74 +545,22 @@ s <span class="token operator">=</span> b<span class="token punctuation">.</span
       </tags>
   </entry>
   <entry>
-    <title>最大公约数和最小公倍数</title>
-    <url>//post/%E6%9C%80%E5%A4%A7%E5%85%AC%E7%BA%A6%E6%95%B0%E5%92%8C%E6%9C%80%E5%B0%8F%E5%85%AC%E5%80%8D%E6%95%B0.html</url>
-    <content><![CDATA[<p>2</p>
-<h1 id="最大公约数和最小公倍数"><a href="#最大公约数和最小公倍数" class="headerlink" title="最大公约数和最小公倍数"></a>最大公约数和最小公倍数</h1><p>输入两个正整数m和n，求其最大公约数和最小公倍数。</p>
-<p><strong>输入</strong></p>
-<p>两个整数</p>
-<p><strong>输出</strong></p>
-<p>最大公约数，最小公倍数</p>
-<p><strong>样例输入复制</strong></p>
-<pre class="line-numbers language-none"><code class="language-none">5 7<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+    <title>Hello World</title>
+    <url>//post/hello-world.html</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
-<p><strong>样例输出复制</strong></p>
-<pre class="line-numbers language-none"><code class="language-none">1 35<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo server<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
-<p><strong>思路</strong>:</p>
-<p>首先我们需要了解，最小公因数和最小公倍数的相关性质</p>
-<p>两数的乘积 / 最大公因数 = 最小公倍数</p>
-<p><strong>所以要求最大公因数和最小公倍数，只需求出其一就可直接利用性质，完成题目。</strong></p>
-<p>辗转相除法是古希腊求两个正整数的最大公约数的，也叫欧几里德算法，其方法是用较大的数除以较小的数，上面较小的除数和得出的余数构成新的一对数，继续做上面的除法，直到出现能够整除的两个数，其中较小的数（即除数）就是最大公约数。以求288和123的最大公约数为例，操作如下：</p>
-<p>288 % 123 == 42</p>
-<p>123 % 42 == 39</p>
-<p>42 % 39 ==  3</p>
-<p>39 % 3 == 0</p>
-<p>此时3 就是288和 133的最大公约数</p>
-<p>结构大致如此 , num1 num2 使用大数取模小数</p>
-<p>t = m% n</p>
-<p>m  = n</p>
-<p>n = t</p>
-<h2 id="代码如下"><a href="#代码如下" class="headerlink" title="代码如下"></a>代码如下</h2><pre class="line-numbers language-java" data-language="java"><code class="language-java">#include <span class="token generics"><span class="token punctuation">&lt;</span>iostream<span class="token punctuation">></span></span>
-using namespace std<span class="token punctuation">;</span>
-<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">&#123;</span>
-	<span class="token keyword">int</span> n<span class="token punctuation">,</span>m<span class="token punctuation">,</span>num1<span class="token punctuation">,</span>num2<span class="token punctuation">;</span>
-	<span class="token comment">//输入两个数</span>
-	<span class="token keyword">int</span> t <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
-	cin <span class="token operator">>></span> num1 <span class="token operator">>></span> num2<span class="token punctuation">;</span>
-	m <span class="token operator">=</span> num1<span class="token punctuation">;</span>
-	n <span class="token operator">=</span> num2<span class="token punctuation">;</span>
-	<span class="token keyword">if</span><span class="token punctuation">(</span>m<span class="token operator">></span>n<span class="token punctuation">)</span><span class="token punctuation">&#123;</span>
-		<span class="token comment">//进入循环 辗转相除</span>
-		<span class="token keyword">while</span><span class="token punctuation">(</span>t <span class="token operator">!=</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">&#123;</span>
-			t <span class="token operator">=</span> m <span class="token operator">%</span> n<span class="token punctuation">;</span>
-			m <span class="token operator">=</span> n<span class="token punctuation">;</span>
-			n <span class="token operator">=</span> t<span class="token punctuation">;</span>
-		<span class="token punctuation">&#125;</span>
-		<span class="token comment">//求最小公倍数</span>
-		<span class="token keyword">int</span> b <span class="token operator">=</span> <span class="token punctuation">(</span>num1<span class="token operator">*</span>num2<span class="token punctuation">)</span> <span class="token operator">/</span> m<span class="token punctuation">;</span> 
-		cout <span class="token operator">&lt;&lt;</span> m <span class="token operator">&lt;&lt;</span> <span class="token string">" "</span> <span class="token operator">&lt;&lt;</span> b <span class="token operator">&lt;&lt;</span>endl<span class="token punctuation">;</span>
-	<span class="token punctuation">&#125;</span><span class="token keyword">else</span> <span class="token keyword">if</span><span class="token punctuation">(</span>m <span class="token operator">&lt;</span> n<span class="token punctuation">)</span><span class="token punctuation">&#123;</span>
-		<span class="token keyword">while</span><span class="token punctuation">(</span>t<span class="token operator">!=</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">&#123;</span>
-			t <span class="token operator">=</span> n <span class="token operator">%</span> m<span class="token punctuation">;</span>
-			n <span class="token operator">=</span> m<span class="token punctuation">;</span>
-			m <span class="token operator">=</span> t<span class="token punctuation">;</span>
-		<span class="token punctuation">&#125;</span>
-		<span class="token keyword">int</span> b <span class="token operator">=</span> <span class="token punctuation">(</span>num1<span class="token operator">*</span>num2<span class="token punctuation">)</span><span class="token operator">/</span>n<span class="token punctuation">;</span>
-		cout <span class="token operator">&lt;&lt;</span> n <span class="token operator">&lt;&lt;</span> <span class="token string">" "</span> <span class="token operator">&lt;&lt;</span> b<span class="token punctuation">;</span>
-	<span class="token punctuation">&#125;</span><span class="token keyword">else</span> <span class="token keyword">if</span><span class="token punctuation">(</span>m<span class="token operator">==</span>n<span class="token punctuation">)</span><span class="token punctuation">&#123;</span>
-		<span class="token comment">//直接输出最小公倍数 公约数都相同</span>
-		cout <span class="token operator">&lt;&lt;</span> n <span class="token operator">&lt;&lt;</span> <span class="token string">" "</span> <span class="token operator">&lt;&lt;</span> n <span class="token operator">&lt;&lt;</span>endl<span class="token punctuation">;</span>
-	<span class="token punctuation">&#125;</span>
-	
-	<span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo generate<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
-<span class="token punctuation">&#125;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo deploy 简单带你<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
-      <tags>
-        <tag>算法解题</tag>
-      </tags>
   </entry>
   <entry>
     <title>心得</title>
@@ -877,6 +812,76 @@ using namespace std<span class="token punctuation">;</span>
 ]]></content>
       <tags>
         <tag>算法题解</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>最大公约数和最小公倍数</title>
+    <url>//post/%E6%9C%80%E5%A4%A7%E5%85%AC%E7%BA%A6%E6%95%B0%E5%92%8C%E6%9C%80%E5%B0%8F%E5%85%AC%E5%80%8D%E6%95%B0.html</url>
+    <content><![CDATA[<p>2</p>
+<h1 id="最大公约数和最小公倍数"><a href="#最大公约数和最小公倍数" class="headerlink" title="最大公约数和最小公倍数"></a>最大公约数和最小公倍数</h1><p>输入两个正整数m和n，求其最大公约数和最小公倍数。</p>
+<p><strong>输入</strong></p>
+<p>两个整数</p>
+<p><strong>输出</strong></p>
+<p>最大公约数，最小公倍数</p>
+<p><strong>样例输入复制</strong></p>
+<pre class="line-numbers language-none"><code class="language-none">5 7<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p><strong>样例输出复制</strong></p>
+<pre class="line-numbers language-none"><code class="language-none">1 35<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p><strong>思路</strong>:</p>
+<p>首先我们需要了解，最小公因数和最小公倍数的相关性质</p>
+<p>两数的乘积 / 最大公因数 = 最小公倍数</p>
+<p><strong>所以要求最大公因数和最小公倍数，只需求出其一就可直接利用性质，完成题目。</strong></p>
+<p>辗转相除法是古希腊求两个正整数的最大公约数的，也叫欧几里德算法，其方法是用较大的数除以较小的数，上面较小的除数和得出的余数构成新的一对数，继续做上面的除法，直到出现能够整除的两个数，其中较小的数（即除数）就是最大公约数。以求288和123的最大公约数为例，操作如下：</p>
+<p>288 % 123 == 42</p>
+<p>123 % 42 == 39</p>
+<p>42 % 39 ==  3</p>
+<p>39 % 3 == 0</p>
+<p>此时3 就是288和 133的最大公约数</p>
+<p>结构大致如此 , num1 num2 使用大数取模小数</p>
+<p>t = m% n</p>
+<p>m  = n</p>
+<p>n = t</p>
+<h2 id="代码如下"><a href="#代码如下" class="headerlink" title="代码如下"></a>代码如下</h2><pre class="line-numbers language-java" data-language="java"><code class="language-java">#include <span class="token generics"><span class="token punctuation">&lt;</span>iostream<span class="token punctuation">></span></span>
+using namespace std<span class="token punctuation">;</span>
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">&#123;</span>
+	<span class="token keyword">int</span> n<span class="token punctuation">,</span>m<span class="token punctuation">,</span>num1<span class="token punctuation">,</span>num2<span class="token punctuation">;</span>
+	<span class="token comment">//输入两个数</span>
+	<span class="token keyword">int</span> t <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+	cin <span class="token operator">>></span> num1 <span class="token operator">>></span> num2<span class="token punctuation">;</span>
+	m <span class="token operator">=</span> num1<span class="token punctuation">;</span>
+	n <span class="token operator">=</span> num2<span class="token punctuation">;</span>
+	<span class="token keyword">if</span><span class="token punctuation">(</span>m<span class="token operator">></span>n<span class="token punctuation">)</span><span class="token punctuation">&#123;</span>
+		<span class="token comment">//进入循环 辗转相除</span>
+		<span class="token keyword">while</span><span class="token punctuation">(</span>t <span class="token operator">!=</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">&#123;</span>
+			t <span class="token operator">=</span> m <span class="token operator">%</span> n<span class="token punctuation">;</span>
+			m <span class="token operator">=</span> n<span class="token punctuation">;</span>
+			n <span class="token operator">=</span> t<span class="token punctuation">;</span>
+		<span class="token punctuation">&#125;</span>
+		<span class="token comment">//求最小公倍数</span>
+		<span class="token keyword">int</span> b <span class="token operator">=</span> <span class="token punctuation">(</span>num1<span class="token operator">*</span>num2<span class="token punctuation">)</span> <span class="token operator">/</span> m<span class="token punctuation">;</span> 
+		cout <span class="token operator">&lt;&lt;</span> m <span class="token operator">&lt;&lt;</span> <span class="token string">" "</span> <span class="token operator">&lt;&lt;</span> b <span class="token operator">&lt;&lt;</span>endl<span class="token punctuation">;</span>
+	<span class="token punctuation">&#125;</span><span class="token keyword">else</span> <span class="token keyword">if</span><span class="token punctuation">(</span>m <span class="token operator">&lt;</span> n<span class="token punctuation">)</span><span class="token punctuation">&#123;</span>
+		<span class="token keyword">while</span><span class="token punctuation">(</span>t<span class="token operator">!=</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">&#123;</span>
+			t <span class="token operator">=</span> n <span class="token operator">%</span> m<span class="token punctuation">;</span>
+			n <span class="token operator">=</span> m<span class="token punctuation">;</span>
+			m <span class="token operator">=</span> t<span class="token punctuation">;</span>
+		<span class="token punctuation">&#125;</span>
+		<span class="token keyword">int</span> b <span class="token operator">=</span> <span class="token punctuation">(</span>num1<span class="token operator">*</span>num2<span class="token punctuation">)</span><span class="token operator">/</span>n<span class="token punctuation">;</span>
+		cout <span class="token operator">&lt;&lt;</span> n <span class="token operator">&lt;&lt;</span> <span class="token string">" "</span> <span class="token operator">&lt;&lt;</span> b<span class="token punctuation">;</span>
+	<span class="token punctuation">&#125;</span><span class="token keyword">else</span> <span class="token keyword">if</span><span class="token punctuation">(</span>m<span class="token operator">==</span>n<span class="token punctuation">)</span><span class="token punctuation">&#123;</span>
+		<span class="token comment">//直接输出最小公倍数 公约数都相同</span>
+		cout <span class="token operator">&lt;&lt;</span> n <span class="token operator">&lt;&lt;</span> <span class="token string">" "</span> <span class="token operator">&lt;&lt;</span> n <span class="token operator">&lt;&lt;</span>endl<span class="token punctuation">;</span>
+	<span class="token punctuation">&#125;</span>
+	
+	<span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+
+<span class="token punctuation">&#125;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+]]></content>
+      <tags>
+        <tag>算法解题</tag>
       </tags>
   </entry>
   <entry>
