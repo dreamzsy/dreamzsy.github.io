@@ -167,6 +167,53 @@ print(resp.text)
       </tags>
   </entry>
   <entry>
+    <title>body</title>
+    <url>/2022/01/30/body/</url>
+    <content><![CDATA[<p>ddd</p>
+<p>ff</p>
+<p>aa撒旦撒大大s</p>
+]]></content>
+      <tags>
+        <tag>阿大撒</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>心得</title>
+    <url>/2021/10/28/day1/</url>
+    <content><![CDATA[<h2 id="记第一次博客搭建"><a href="#记第一次博客搭建" class="headerlink" title="## 记第一次博客搭建"></a>## 记第一次博客搭建</h2><h1 id="记第一次搭建博客"><a href="#记第一次搭建博客" class="headerlink" title="记第一次搭建博客"></a><strong>记第一次搭建博客</strong></h1><p><strong>引言：</strong></p>
+<ul>
+<li><strong>搭建博客监督我写笔记。</strong></li>
+<li><strong>画面更加炫酷，提升学习兴趣。</strong></li>
+<li><strong>记录每天的心情、感受。</strong></li>
+</ul>
+<p><strong>let’go:</strong></p>
+<p>那就从这里开始吧,哈哈哈，必须得提一下<strong>韩老师</strong>，人长的帅，说话又好听，技术还好~~。</p>
+<img src="http://tva1.sinaimg.cn/large/006xl9pBly1gvvf7hd0rsj30zk0g6gq8.jpg"/>
+
+<p>谈点正经的吧，经过那晚的聊天，我发现韩老师不仅是IT界天花板，而且还有思想。我最喜欢和有思想的人交流。虽然在互联网上我显得很中二，但丝毫无法掩盖我内心的火热以及无数的想法，以及对社会的思考。</p>
+<ul>
+<li>​    关于方向：起初我是很好奇为什么，韩老师一个搞IT的天天玩设计，甚至还是视觉中国签约色影师。然后他提到了，是为了多元发展，技术只是一部分，而想要更多的提升，则需要有长远的目光，战略眼光。这一点，我当然很认同，但是我觉得肯定所学的具备相关性啊，所以我的目标是有 技术+思想，编程和电商结合。</li>
+<li>​    战略眼光：他提到了，所学技能和副业差距越大越好，只有这样，才能做出颠覆的举动。韩老师又学法律又学管理学、又学摄影。而我还只局限于IT行业，这一波，我格局小了。</li>
+</ul>
+<h2 id="搭博客遇到的困难"><a href="#搭博客遇到的困难" class="headerlink" title="搭博客遇到的困难"></a>搭博客遇到的困难</h2><p>​    博客配置的还是比较艰辛，虽说都是只是无脑配置，可是对于每一台设备，其所面对的Bug都是<strong>不一样滴</strong>。</p>
+<p>学好英语！学好英语！学好英语！重要的事情说三遍。最初是<strong>github关联性</strong>问题，因为未注意到写<strong>仓库地址</strong>的细节，导致后续一直在找哪出错了。之后是发布文章，因为一丢丢格式的细微差距，导致一直报错，迟迟找不出原因。最后是主题更替，官方文档漏了一处细节，我特么。。。</p>
+<h2 id="所得经验"><a href="#所得经验" class="headerlink" title="所得经验"></a>所得经验</h2><ul>
+<li>对于每一篇文档教程，要逐字逐句，不可觉得简单就跳过，因为<strong>Bug</strong>往往就隐藏在这些<strong>小细节</strong>中。</li>
+<li>执行每一个命令之后仔细检查，当前命令是否<strong>successful</strong>，注意：不要报错了，继续执行之后的代码，不然又得抓耳挠腮喽。</li>
+<li>学好英语</li>
+</ul>
+<p>认识了很多学代码的小伙伴、小姐妹，很开心！  <strong>嘿嘿嘿</strong>，冲冲冲 兄弟们。</p>
+<p>别人不给机会，那就自己创造</p>
+<h2 id="因为热爱，所以我无惧一切"><a href="#因为热爱，所以我无惧一切" class="headerlink" title="因为热爱，所以我无惧一切"></a>因为热爱，所以我无惧一切</h2><h2 id="I-will-always-belong-to-my-own！"><a href="#I-will-always-belong-to-my-own！" class="headerlink" title="I will always belong to my own！"></a>I will always belong to my own！</h2><img src="http://tva1.sinaimg.cn/large/006xl9pBly1gvvfrpn506j30zk0kg783.jpg"/>
+
+
+
+]]></content>
+      <tags>
+        <tag>博客搭建</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hello World</title>
     <url>/2021/11/24/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
@@ -183,17 +230,6 @@ print(resp.text)
 
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
-  </entry>
-  <entry>
-    <title>body</title>
-    <url>/2022/01/30/body/</url>
-    <content><![CDATA[<p>ddd</p>
-<p>ff</p>
-<p>aa撒旦撒大大s</p>
-]]></content>
-      <tags>
-        <tag>阿大撒</tag>
-      </tags>
   </entry>
   <entry>
     <title>pysquery</title>
@@ -327,42 +363,6 @@ print(resp.text)
 <h3 id="客户端：新建套接字-socket-—–-gt-连接远程服务器-connect-—–-gt-发送-接收数据-send-recv-—–-gt-关闭连接-close"><a href="#客户端：新建套接字-socket-—–-gt-连接远程服务器-connect-—–-gt-发送-接收数据-send-recv-—–-gt-关闭连接-close" class="headerlink" title="客户端：新建套接字 socket() —– &gt; 连接远程服务器 connect() —– &gt;  发送/接收数据 send/recv —– &gt;  关闭连接 close()"></a>客户端：新建套接字 <strong>socket()</strong> —– &gt; 连接远程服务器 <strong>connect()</strong> —– &gt;  发送/接收数据 send/recv —– &gt;  关闭连接 <strong>close()</strong></h3><h3 id="服务端：新建套接字-socket-——-gt-绑定端口-bind-——-gt-监听端口-listen-——-gt-阻塞等待客户连接-accept-——-gt-recv-send-接收-发送数据-——-gt-close-关闭-连接"><a href="#服务端：新建套接字-socket-——-gt-绑定端口-bind-——-gt-监听端口-listen-——-gt-阻塞等待客户连接-accept-——-gt-recv-send-接收-发送数据-——-gt-close-关闭-连接" class="headerlink" title="服务端：新建套接字 socket() ——&gt;绑定端口 bind() ——-&gt; 监听端口 listen()  ——&gt; 阻塞等待客户连接 accept() ——&gt; recv/send 接收/发送数据 ——- &gt; close  关闭  连接"></a><strong>服务端：</strong>新建套接字 socket() ——&gt;绑定端口 bind() ——-&gt; 监听端口 listen()  ——&gt; 阻塞等待客户连接 accept() ——&gt; recv/send 接收/发送数据 ——- &gt; close  关闭  连接</h3>]]></content>
       <tags>
         <tag>socket编程</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>心得</title>
-    <url>/2021/10/28/day1/</url>
-    <content><![CDATA[<h2 id="记第一次博客搭建"><a href="#记第一次博客搭建" class="headerlink" title="## 记第一次博客搭建"></a>## 记第一次博客搭建</h2><h1 id="记第一次搭建博客"><a href="#记第一次搭建博客" class="headerlink" title="记第一次搭建博客"></a><strong>记第一次搭建博客</strong></h1><p><strong>引言：</strong></p>
-<ul>
-<li><strong>搭建博客监督我写笔记。</strong></li>
-<li><strong>画面更加炫酷，提升学习兴趣。</strong></li>
-<li><strong>记录每天的心情、感受。</strong></li>
-</ul>
-<p><strong>let’go:</strong></p>
-<p>那就从这里开始吧,哈哈哈，必须得提一下<strong>韩老师</strong>，人长的帅，说话又好听，技术还好~~。</p>
-<img src="http://tva1.sinaimg.cn/large/006xl9pBly1gvvf7hd0rsj30zk0g6gq8.jpg"/>
-
-<p>谈点正经的吧，经过那晚的聊天，我发现韩老师不仅是IT界天花板，而且还有思想。我最喜欢和有思想的人交流。虽然在互联网上我显得很中二，但丝毫无法掩盖我内心的火热以及无数的想法，以及对社会的思考。</p>
-<ul>
-<li>​    关于方向：起初我是很好奇为什么，韩老师一个搞IT的天天玩设计，甚至还是视觉中国签约色影师。然后他提到了，是为了多元发展，技术只是一部分，而想要更多的提升，则需要有长远的目光，战略眼光。这一点，我当然很认同，但是我觉得肯定所学的具备相关性啊，所以我的目标是有 技术+思想，编程和电商结合。</li>
-<li>​    战略眼光：他提到了，所学技能和副业差距越大越好，只有这样，才能做出颠覆的举动。韩老师又学法律又学管理学、又学摄影。而我还只局限于IT行业，这一波，我格局小了。</li>
-</ul>
-<h2 id="搭博客遇到的困难"><a href="#搭博客遇到的困难" class="headerlink" title="搭博客遇到的困难"></a>搭博客遇到的困难</h2><p>​    博客配置的还是比较艰辛，虽说都是只是无脑配置，可是对于每一台设备，其所面对的Bug都是<strong>不一样滴</strong>。</p>
-<p>学好英语！学好英语！学好英语！重要的事情说三遍。最初是<strong>github关联性</strong>问题，因为未注意到写<strong>仓库地址</strong>的细节，导致后续一直在找哪出错了。之后是发布文章，因为一丢丢格式的细微差距，导致一直报错，迟迟找不出原因。最后是主题更替，官方文档漏了一处细节，我特么。。。</p>
-<h2 id="所得经验"><a href="#所得经验" class="headerlink" title="所得经验"></a>所得经验</h2><ul>
-<li>对于每一篇文档教程，要逐字逐句，不可觉得简单就跳过，因为<strong>Bug</strong>往往就隐藏在这些<strong>小细节</strong>中。</li>
-<li>执行每一个命令之后仔细检查，当前命令是否<strong>successful</strong>，注意：不要报错了，继续执行之后的代码，不然又得抓耳挠腮喽。</li>
-<li>学好英语</li>
-</ul>
-<p>认识了很多学代码的小伙伴、小姐妹，很开心！  <strong>嘿嘿嘿</strong>，冲冲冲 兄弟们。</p>
-<p>别人不给机会，那就自己创造</p>
-<h2 id="因为热爱，所以我无惧一切"><a href="#因为热爱，所以我无惧一切" class="headerlink" title="因为热爱，所以我无惧一切"></a>因为热爱，所以我无惧一切</h2><h2 id="I-will-always-belong-to-my-own！"><a href="#I-will-always-belong-to-my-own！" class="headerlink" title="I will always belong to my own！"></a>I will always belong to my own！</h2><img src="http://tva1.sinaimg.cn/large/006xl9pBly1gvvfrpn506j30zk0kg783.jpg"/>
-
-
-
-]]></content>
-      <tags>
-        <tag>博客搭建</tag>
       </tags>
   </entry>
   <entry>
@@ -524,6 +524,105 @@ print(resp.text)
       </tags>
   </entry>
   <entry>
+    <title>格物1.18</title>
+    <url>/2022/01/19/%E6%A0%BC%E7%89%A91-18/</url>
+    <content><![CDATA[<h1 id="格物-1-18"><a href="#格物-1-18" class="headerlink" title="格物 1.18"></a>格物 1.18</h1><p>最近几天在按照规划执行的过程中，发现了几个很严重的问题，定力不足，分心，心容易骚乱。在感到疲惫的时候，会有歇一歇的念头，可在那念头闪现中，就不知觉的拿起了手机，拿起手机，以前主要是刷哔站，知乎。<br>     现在，最容易被影响的微信 和 QQ，一回起消息就是没完没了，可不禁反思，我在这聊天过程中收获到了什么呢 反而一次次打破我的行动规划。<br>    知行合一，真难啊，良知显现出来，致良知，真难啊。<br>回想今天的一天，计划打乱是从视频会议开始，早上是正常起床，晨读，练书法，可是到了学英语的时间段，有了视频会议，等到视频会议结束，这时候我拿起手机就停不下来了。错过了英语学习，知道下午两点，开始学习java课程，可是又犯困，休息的时候，又拿起了手机，回起了消息。学习效率极低，也就两节课。之后开始学C语言，做了两题。然后江边散了部，听先生讲心学，1.世间无鬼神，2.生命很脆弱，有能力应该尽可能帮助他人。</p>
+<h2 id="明天应该怎么做？"><a href="#明天应该怎么做？" class="headerlink" title="明天应该怎么做？"></a>明天应该怎么做？</h2><p>上午严格按照计划执行，吃饭，1.10分吃完饭，不要莫手机，休息20分钟，起来学习java课程。学完之后按规划学习C语言。7-8点 自由安排学习感兴趣的，但是不能玩手机，8-9点 固定学心学，省察自己 写下反思。 剩余时间 学习java。 一有拿手机的念头，或者已经拿了。就告诉你，这个是私欲，这个念头得断，不然白规划了，知行要合一</p>
+<p>思想进步：为什么致良知能够改变命运呢，因为人很难去改变固有认知，再加上固有的环境，你的脑回路就会把你带进这个方向，而致良知，是一种去私欲的过程，你的心存乎天理，自然会改变这个轨迹。</p>
+<h2 id="师兄给的建议"><a href="#师兄给的建议" class="headerlink" title="师兄给的建议"></a>师兄给的建议</h2><p>A：师兄，在开始阶段，不要想着马上就能达到沉浸式投入学习，我这个毛病也很重，就是学个什么在一开始都想着游刃有余了。就踏踏实实的发现有分心的东西，如果是私欲，就去掉，可能去掉又会复发，就再去掉，重要的是保持功夫不断。共勉</p>
+<p>你B：说的这个再正常不过了，你现在先别考虑念虑之外的事，只要有良知一念发动你察觉到了，就听其指引立马去做。做不到你就可以省察到底是什么原因让你知行不能合一了，一直改不掉的提出来大家一起讨论</p>
+]]></content>
+      <tags>
+        <tag>日记内省</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>格物1</title>
+    <url>/2021/11/09/%E6%A0%BC%E7%89%A91/</url>
+    <content><![CDATA[<p>A</p>
+<h1 id="格物心得——记2021-11-9"><a href="#格物心得——记2021-11-9" class="headerlink" title="格物心得——记2021.11.9"></a><strong>格物心得</strong>——记2021.11.9</h1><p>这次我来格一件事，我想这件事让我意识到我很多不到位的地方。事情经过大概是我在群里开玩笑说专业不好的言论被某个人截图发给了老师，传到了专业群那里，然后我就被老师叫去谈话了。我就讲一下我的心路经过吧，起初那我操他妈的肯定很气，我特么发东西管他屁事，我还不认识他。做小人就那么有意思，我也不知道都大学了还有时间做这种屁事，而且是两次聊天记录被传。</p>
+<p>当然我现在写下这个的时候内心已经很平静了，既然我不能去改变别人，那我何必被这种小事所影响心境，而我能被影响只能说心境未到，先客观分析，老师知道了这件事又怎样，第一，我以为的老师的看法，可能和老师想的不一样呢，第二，我为什么要在意别人的看发，且不说本件事情本来就很滑稽，我说我没开学前劝退了一个同学去别的专业，这件事且不论对错，给出一个更适合自己发展的建议。其次，当时专业早填报完了，我如何去劝退他？那如果我说的对，我应该庆幸别人把我说的话发扬光大，如果我说的不对，那也许就是在老师那里丢一次人，又有什么关系。</p>
+<p><strong>心得感悟</strong>：谈完了客观事实，我来讲讲我该如何安顿我的这颗无限心，有烦恼当然是正常的，而且未必不是我成长中的养分。这也许就是我一个修心的契机，我为何要去想他人的恶，我越想他只会让我自己越来越迷失。让情绪影响我的心。</p>
+<p>既然想不了别人，那就内省自己。我做错了吗？，那我认为，自然而然的吐槽是没有问题的，但是呢，当我深思了半天之后，突然发现了我现在的处境，虽然已没了往年的自卑，却朝着另一种方向发展，锋芒毕露.</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">纪渻子为王养斗鸡。</span><br><span class="line">十日而问：“鸡已乎？”</span><br><span class="line">曰：“未也，方虚骄而恃气。”</span><br><span class="line">十日又问，曰：“未也，犹应向景。”</span><br><span class="line">十日又问，曰：“未也，犹疾视而盛气。”</span><br><span class="line">十日又问，曰：“几矣。鸡虽有鸣者，已无变矣，望之似木鸡矣，其德全矣，异鸡无敢应者，反走矣。” </span><br></pre></td></tr></table></figure>
+
+<p><strong>纪渻子为王养斗鸡。十日而问：“鸡已乎？”曰：“未也，方虚骄而恃气。”</strong></p>
+<p>我现在也许就是这个状态，过于张扬，能力却不足，只是凭借一股血气而骄傲自负，虽有上进心，却不懂内敛，内省。经过了很多事，我发现，这就是我目前的境地。</p>
+<p>所以你问我，现在还气么，我的回答是：<strong>JUST SOSO</strong>。反而，我还要感谢他，经过这件事，让我内省自己，找准我现在的状态，从而找到我下一个应该去往的境界。😋👍</p>
+<p><strong>无善无恶心之体</strong></p>
+<p><strong>有善有恶意为动</strong></p>
+<p><strong>知善知恶是良知</strong>          -处理一件事的时候，一定要先放下对一个人的执念，通过良知对于这件事进行判断</p>
+<p><strong>为善去恶是格物</strong></p>
+]]></content>
+      <tags>
+        <tag>格物致知心得集</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>格物1.20</title>
+    <url>/2022/01/19/%E6%A0%BC%E7%89%A91-19/</url>
+    <content><![CDATA[<p>s</p>
+<h1 id="1-19格物"><a href="#1-19格物" class="headerlink" title="1.19格物"></a>1.19格物</h1><p>现在的内心很难受，真的很难受，本来一提到测血压我就恐惧，今天突然就想测一下血压，结果一测，180，我的心停顿了几秒，这是真的吗，接着又测试了几次，结果都是一样。内心真的好难受啊，我第一次感受到了恐惧，感受到了死亡。</p>
+<p>但是我是学心学的，我知道恐惧，害怕，担忧，改变不了什么。我的生活极其不规律，我熬夜，我不爱运动。就算没有这次血压，等我老了，他又会出现什么症状呢，绝症？还是癌症？。我不敢想象，我真的尽可能开导我记，我是学心学的，也许这就是一次机缘呢，这是告诉我，我不爱自己的身体，我不爱自己，又谈学什么心学呢，良久，但是内心终究是挺难受的，我不想我爸妈担心，不想看到这种情景。我还能怎么办，唯有积极的心态去战胜它，也许排除掉遗传基因，我对这爆表的血压，我也没有怨恨。这是我因得的，我的生活规律，决定了这个结果。我是该深刻反思一下了，究竟我在学什么，学这学那，却连根本的，我自己的身体。我都没有照顾好，我又有什么颜面，谈学心学。很多人因此而送命，我想战胜它，我把它当作是我人生的一个磨难，想死而生。借这次机会，我要感悟体会到老年面对的生老病死，可血压为什么不是130这种中和的呢，也许是老天看出来我的性格，不到绝境，我很难悔悟，那我可真的要好好感谢您了。当然是打心眼里感谢。如果不次这是，等我下一次意识到这个问题，也许我的声明已经没有了吧。</p>
+<p>​    再谈一谈，我之前体会不到，感恩之心，可从今天开始，我知道了，一个人能够看到明天的太阳照常升起，这是多么心愿啊，死可怕吗，可怕，可更可怕的是不知道如何面对死亡，或者是因为自己一生碌碌无为而懊悔，在死前，你是否让自己已经毫无遗憾，拥抱一些爸妈，这一天问一声好，问问大地，问问蓝天，哎，活着真好啊。那些在ICU重症监护室焦急等待的亲人，哪些为了缉毒而牺牲的警察，哪些为了维护祖国领土牺牲的战士，他才18岁，比我还小一岁啊。更不用提这次新馆疫情又带走了多少人的生命。岁月无常，不知道哪一天，你就再也看不到明天的太阳，只是希望每一天都不要留有遗憾。</p>
+<p>这次血压的发现，促使我爱护我自己的身体，打心眼里爱护，每天 早晚，我要刷牙，晚上我要在9：50之前入睡，我不能再熬夜，我要我的每天都有运动，我要我的灵魂，肉体不再如一滩死水，我要给它新的生命，有什么大不了的呢，我难道还不能战胜者这小小高血压吗？他只是我人生中的一块炼金石，促使我走向圣贤，成为圣贤。 我爱我自己，我爱我的家人，如果能让我看每一天窗外射出来的光，看到我的家人，那我将心怀感激，无比虔诚！！！</p>
+]]></content>
+      <tags>
+        <tag>格物</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>阶乘求和</title>
+    <url>/2021/11/27/%E9%98%B6%E4%B9%98%E6%B1%82%E5%92%8C/</url>
+    <content><![CDATA[<h1 id="阶乘求和"><a href="#阶乘求和" class="headerlink" title="阶乘求和"></a>阶乘求和</h1><p><strong>题目描述</strong></p>
+<p>求Sn=1!+2!+3!+4!+5!+…+n!之值，其中n是一个数字(n不超过20)。</p>
+<p><strong>输入</strong></p>
+<p>n</p>
+<p><strong>输出</strong></p>
+<p>Sn的值</p>
+<p><strong>样例输入复制</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">5</span><br></pre></td></tr></table></figure>
+
+<p><strong>样例输出复制</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">153</span><br></pre></td></tr></table></figure>
+
+<p><strong>思路分析：</strong></p>
+<p>题目要求需要求阶乘的和，我们的初步想法是定义一个<strong>求阶乘的递归函数</strong>，再定义一个<strong>主函数</strong>，通过<strong>遍历</strong>，1-n将数字传入fac中，之后 加到sum里。</p>
+<p><strong>注意事项：</strong></p>
+<p>1.采取自定函数求阶乘。用递归法。需注意递归法的尽头。（在本题中，fac函数的if语句作递归法的尽头，不可省略。）</p>
+<p>2.要注意最后结果的数值范围，避免溢出发生错误。</p>
+<p>阶乘很容出现<strong>数值溢出</strong>的问题，所以我们要<strong>扩大数值的存储范围</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">类型名称      字节数  取值范围</span><br><span class="line">signed` `char`      `1    -128～+127</span><br><span class="line">short` `int`       `2    -32768～+32767</span><br><span class="line">int`          `4    -2147483648～+2147483647</span><br><span class="line">long` `int`       `4    -2147483648～+2141483647</span><br><span class="line">long` `long` `int`     `8    -9223372036854775808～+9223372036854775807</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">//long int   的简写是   long     占位符是：%ld   </span><br><span class="line">//long long int的简写是   long long   占位符是：%lld</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+<h2 id="代码如下："><a href="#代码如下：" class="headerlink" title="代码如下："></a><strong>代码如下：</strong></h2><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="comment">//设计的递归函数 返回阶乘值</span></span><br><span class="line"><span class="function"><span class="keyword">long</span> <span class="keyword">int</span> <span class="title">fac</span><span class="params">(<span class="keyword">int</span> n)</span></span>&#123;        <span class="comment">//long int 避免溢出</span></span><br><span class="line">	<span class="keyword">if</span>(n==<span class="number">0</span>)&#123;</span><br><span class="line">		<span class="comment">//递归法到尽头 返回1</span></span><br><span class="line">		<span class="keyword">return</span> <span class="number">1</span>;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span>  (<span class="built_in">fac</span>(n<span class="number">-1</span>)*n);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">//主函数</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="comment">//思路:先设计一个函数求出每个阶乘</span></span><br><span class="line">	<span class="keyword">int</span> n;</span><br><span class="line">	<span class="keyword">long</span> <span class="keyword">int</span> s=<span class="number">0</span>;</span><br><span class="line">	cin &gt;&gt; n;</span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>; i&lt;=n; i++)&#123;</span><br><span class="line">		s += <span class="built_in">fac</span>(i);</span><br><span class="line">	&#125;</span><br><span class="line">	cout &lt;&lt; s &lt;&lt;endl;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 时间复杂度O(N)</span></span><br><span class="line"><span class="comment">//空间耗费多 能不用递归就不用递归</span></span><br></pre></td></tr></table></figure>
+
+
+
+<p><strong>思路二（首选）：</strong></p>
+<p>我们看第第二次循环的时候也就是2!,此时等于前一个数的阶乘*当前数</p>
+<p> 第三次循环的时候，3!= 2! * 3</p>
+<p> 第四次循环，     4!=3! * 4</p>
+<p> 1*1</p>
+<p>1*2</p>
+<p>1  * 2 *  3</p>
+<p>我们可以退出 </p>
+<p>t *=i;</p>
+<p>s +=t</p>
+<h2 id="代码如下"><a href="#代码如下" class="headerlink" title="代码如下"></a>代码如下</h2><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> n;</span><br><span class="line">    <span class="keyword">long</span> <span class="keyword">long</span> <span class="keyword">int</span> sum = <span class="number">0</span>, t = <span class="number">1</span>;</span><br><span class="line">    <span class="built_in">scanf</span>(<span class="string">&quot;%d&quot;</span>, &amp;n);</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">1</span>; i &lt;= n; i++)</span><br><span class="line">    &#123;</span><br><span class="line">        t *= i;</span><br><span class="line">        sum += t;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;%lld&quot;</span>, sum);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>推荐这个算法，时间复杂度O(n)，但是空间占用小。</p>
+]]></content>
+      <tags>
+        <tag>算法解题</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>链表</title>
     <url>/2021/11/07/%E9%93%BE%E8%A1%A8/</url>
     <content><![CDATA[<p>#线性表</p>
@@ -601,57 +700,6 @@ print(resp.text)
 ]]></content>
       <tags>
         <tag>java 数据结构</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>阶乘求和</title>
-    <url>/2021/11/27/%E9%98%B6%E4%B9%98%E6%B1%82%E5%92%8C/</url>
-    <content><![CDATA[<h1 id="阶乘求和"><a href="#阶乘求和" class="headerlink" title="阶乘求和"></a>阶乘求和</h1><p><strong>题目描述</strong></p>
-<p>求Sn=1!+2!+3!+4!+5!+…+n!之值，其中n是一个数字(n不超过20)。</p>
-<p><strong>输入</strong></p>
-<p>n</p>
-<p><strong>输出</strong></p>
-<p>Sn的值</p>
-<p><strong>样例输入复制</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">5</span><br></pre></td></tr></table></figure>
-
-<p><strong>样例输出复制</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">153</span><br></pre></td></tr></table></figure>
-
-<p><strong>思路分析：</strong></p>
-<p>题目要求需要求阶乘的和，我们的初步想法是定义一个<strong>求阶乘的递归函数</strong>，再定义一个<strong>主函数</strong>，通过<strong>遍历</strong>，1-n将数字传入fac中，之后 加到sum里。</p>
-<p><strong>注意事项：</strong></p>
-<p>1.采取自定函数求阶乘。用递归法。需注意递归法的尽头。（在本题中，fac函数的if语句作递归法的尽头，不可省略。）</p>
-<p>2.要注意最后结果的数值范围，避免溢出发生错误。</p>
-<p>阶乘很容出现<strong>数值溢出</strong>的问题，所以我们要<strong>扩大数值的存储范围</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">类型名称      字节数  取值范围</span><br><span class="line">signed` `char`      `1    -128～+127</span><br><span class="line">short` `int`       `2    -32768～+32767</span><br><span class="line">int`          `4    -2147483648～+2147483647</span><br><span class="line">long` `int`       `4    -2147483648～+2141483647</span><br><span class="line">long` `long` `int`     `8    -9223372036854775808～+9223372036854775807</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">//long int   的简写是   long     占位符是：%ld   </span><br><span class="line">//long long int的简写是   long long   占位符是：%lld</span><br></pre></td></tr></table></figure>
-
-
-
-
-
-<h2 id="代码如下："><a href="#代码如下：" class="headerlink" title="代码如下："></a><strong>代码如下：</strong></h2><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="comment">//设计的递归函数 返回阶乘值</span></span><br><span class="line"><span class="function"><span class="keyword">long</span> <span class="keyword">int</span> <span class="title">fac</span><span class="params">(<span class="keyword">int</span> n)</span></span>&#123;        <span class="comment">//long int 避免溢出</span></span><br><span class="line">	<span class="keyword">if</span>(n==<span class="number">0</span>)&#123;</span><br><span class="line">		<span class="comment">//递归法到尽头 返回1</span></span><br><span class="line">		<span class="keyword">return</span> <span class="number">1</span>;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span>  (<span class="built_in">fac</span>(n<span class="number">-1</span>)*n);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">//主函数</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="comment">//思路:先设计一个函数求出每个阶乘</span></span><br><span class="line">	<span class="keyword">int</span> n;</span><br><span class="line">	<span class="keyword">long</span> <span class="keyword">int</span> s=<span class="number">0</span>;</span><br><span class="line">	cin &gt;&gt; n;</span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>; i&lt;=n; i++)&#123;</span><br><span class="line">		s += <span class="built_in">fac</span>(i);</span><br><span class="line">	&#125;</span><br><span class="line">	cout &lt;&lt; s &lt;&lt;endl;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 时间复杂度O(N)</span></span><br><span class="line"><span class="comment">//空间耗费多 能不用递归就不用递归</span></span><br></pre></td></tr></table></figure>
-
-
-
-<p><strong>思路二（首选）：</strong></p>
-<p>我们看第第二次循环的时候也就是2!,此时等于前一个数的阶乘*当前数</p>
-<p> 第三次循环的时候，3!= 2! * 3</p>
-<p> 第四次循环，     4!=3! * 4</p>
-<p> 1*1</p>
-<p>1*2</p>
-<p>1  * 2 *  3</p>
-<p>我们可以退出 </p>
-<p>t *=i;</p>
-<p>s +=t</p>
-<h2 id="代码如下"><a href="#代码如下" class="headerlink" title="代码如下"></a>代码如下</h2><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> n;</span><br><span class="line">    <span class="keyword">long</span> <span class="keyword">long</span> <span class="keyword">int</span> sum = <span class="number">0</span>, t = <span class="number">1</span>;</span><br><span class="line">    <span class="built_in">scanf</span>(<span class="string">&quot;%d&quot;</span>, &amp;n);</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">1</span>; i &lt;= n; i++)</span><br><span class="line">    &#123;</span><br><span class="line">        t *= i;</span><br><span class="line">        sum += t;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;%lld&quot;</span>, sum);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>推荐这个算法，时间复杂度O(n)，但是空间占用小。</p>
-]]></content>
-      <tags>
-        <tag>算法解题</tag>
       </tags>
   </entry>
 </search>
