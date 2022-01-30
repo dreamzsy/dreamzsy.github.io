@@ -1,53 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>body</title>
-    <url>/2022/01/30/body/</url>
-    <content><![CDATA[<p>ddd</p>
-<p>ff</p>
-<p>aa撒旦撒大大s</p>
-]]></content>
-      <tags>
-        <tag>阿大撒</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>心得</title>
-    <url>/2021/10/28/day1/</url>
-    <content><![CDATA[<h2 id="记第一次博客搭建"><a href="#记第一次博客搭建" class="headerlink" title="## 记第一次博客搭建"></a>## 记第一次博客搭建</h2><h1 id="记第一次搭建博客"><a href="#记第一次搭建博客" class="headerlink" title="记第一次搭建博客"></a><strong>记第一次搭建博客</strong></h1><p><strong>引言：</strong></p>
-<ul>
-<li><strong>搭建博客监督我写笔记。</strong></li>
-<li><strong>画面更加炫酷，提升学习兴趣。</strong></li>
-<li><strong>记录每天的心情、感受。</strong></li>
-</ul>
-<p><strong>let’go:</strong></p>
-<p>那就从这里开始吧,哈哈哈，必须得提一下<strong>韩老师</strong>，人长的帅，说话又好听，技术还好~~。</p>
-<img src="http://tva1.sinaimg.cn/large/006xl9pBly1gvvf7hd0rsj30zk0g6gq8.jpg"/>
-
-<p>谈点正经的吧，经过那晚的聊天，我发现韩老师不仅是IT界天花板，而且还有思想。我最喜欢和有思想的人交流。虽然在互联网上我显得很中二，但丝毫无法掩盖我内心的火热以及无数的想法，以及对社会的思考。</p>
-<ul>
-<li>​    关于方向：起初我是很好奇为什么，韩老师一个搞IT的天天玩设计，甚至还是视觉中国签约色影师。然后他提到了，是为了多元发展，技术只是一部分，而想要更多的提升，则需要有长远的目光，战略眼光。这一点，我当然很认同，但是我觉得肯定所学的具备相关性啊，所以我的目标是有 技术+思想，编程和电商结合。</li>
-<li>​    战略眼光：他提到了，所学技能和副业差距越大越好，只有这样，才能做出颠覆的举动。韩老师又学法律又学管理学、又学摄影。而我还只局限于IT行业，这一波，我格局小了。</li>
-</ul>
-<h2 id="搭博客遇到的困难"><a href="#搭博客遇到的困难" class="headerlink" title="搭博客遇到的困难"></a>搭博客遇到的困难</h2><p>​    博客配置的还是比较艰辛，虽说都是只是无脑配置，可是对于每一台设备，其所面对的Bug都是<strong>不一样滴</strong>。</p>
-<p>学好英语！学好英语！学好英语！重要的事情说三遍。最初是<strong>github关联性</strong>问题，因为未注意到写<strong>仓库地址</strong>的细节，导致后续一直在找哪出错了。之后是发布文章，因为一丢丢格式的细微差距，导致一直报错，迟迟找不出原因。最后是主题更替，官方文档漏了一处细节，我特么。。。</p>
-<h2 id="所得经验"><a href="#所得经验" class="headerlink" title="所得经验"></a>所得经验</h2><ul>
-<li>对于每一篇文档教程，要逐字逐句，不可觉得简单就跳过，因为<strong>Bug</strong>往往就隐藏在这些<strong>小细节</strong>中。</li>
-<li>执行每一个命令之后仔细检查，当前命令是否<strong>successful</strong>，注意：不要报错了，继续执行之后的代码，不然又得抓耳挠腮喽。</li>
-<li>学好英语</li>
-</ul>
-<p>认识了很多学代码的小伙伴、小姐妹，很开心！  <strong>嘿嘿嘿</strong>，冲冲冲 兄弟们。</p>
-<p>别人不给机会，那就自己创造</p>
-<h2 id="因为热爱，所以我无惧一切"><a href="#因为热爱，所以我无惧一切" class="headerlink" title="因为热爱，所以我无惧一切"></a>因为热爱，所以我无惧一切</h2><h2 id="I-will-always-belong-to-my-own！"><a href="#I-will-always-belong-to-my-own！" class="headerlink" title="I will always belong to my own！"></a>I will always belong to my own！</h2><img src="http://tva1.sinaimg.cn/large/006xl9pBly1gvvfrpn506j30zk0kg783.jpg"/>
-
-
-
-]]></content>
-      <tags>
-        <tag>博客搭建</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>aa</title>
     <url>/2022/01/30/aa/</url>
     <content><![CDATA[]]></content>
@@ -214,6 +167,53 @@ print(resp.text)
       </tags>
   </entry>
   <entry>
+    <title>body</title>
+    <url>/2022/01/30/body/</url>
+    <content><![CDATA[<p>ddd</p>
+<p>ff</p>
+<p>aa撒旦撒大大s</p>
+]]></content>
+      <tags>
+        <tag>阿大撒</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>心得</title>
+    <url>/2021/10/28/day1/</url>
+    <content><![CDATA[<h2 id="记第一次博客搭建"><a href="#记第一次博客搭建" class="headerlink" title="## 记第一次博客搭建"></a>## 记第一次博客搭建</h2><h1 id="记第一次搭建博客"><a href="#记第一次搭建博客" class="headerlink" title="记第一次搭建博客"></a><strong>记第一次搭建博客</strong></h1><p><strong>引言：</strong></p>
+<ul>
+<li><strong>搭建博客监督我写笔记。</strong></li>
+<li><strong>画面更加炫酷，提升学习兴趣。</strong></li>
+<li><strong>记录每天的心情、感受。</strong></li>
+</ul>
+<p><strong>let’go:</strong></p>
+<p>那就从这里开始吧,哈哈哈，必须得提一下<strong>韩老师</strong>，人长的帅，说话又好听，技术还好~~。</p>
+<img src="http://tva1.sinaimg.cn/large/006xl9pBly1gvvf7hd0rsj30zk0g6gq8.jpg"/>
+
+<p>谈点正经的吧，经过那晚的聊天，我发现韩老师不仅是IT界天花板，而且还有思想。我最喜欢和有思想的人交流。虽然在互联网上我显得很中二，但丝毫无法掩盖我内心的火热以及无数的想法，以及对社会的思考。</p>
+<ul>
+<li>​    关于方向：起初我是很好奇为什么，韩老师一个搞IT的天天玩设计，甚至还是视觉中国签约色影师。然后他提到了，是为了多元发展，技术只是一部分，而想要更多的提升，则需要有长远的目光，战略眼光。这一点，我当然很认同，但是我觉得肯定所学的具备相关性啊，所以我的目标是有 技术+思想，编程和电商结合。</li>
+<li>​    战略眼光：他提到了，所学技能和副业差距越大越好，只有这样，才能做出颠覆的举动。韩老师又学法律又学管理学、又学摄影。而我还只局限于IT行业，这一波，我格局小了。</li>
+</ul>
+<h2 id="搭博客遇到的困难"><a href="#搭博客遇到的困难" class="headerlink" title="搭博客遇到的困难"></a>搭博客遇到的困难</h2><p>​    博客配置的还是比较艰辛，虽说都是只是无脑配置，可是对于每一台设备，其所面对的Bug都是<strong>不一样滴</strong>。</p>
+<p>学好英语！学好英语！学好英语！重要的事情说三遍。最初是<strong>github关联性</strong>问题，因为未注意到写<strong>仓库地址</strong>的细节，导致后续一直在找哪出错了。之后是发布文章，因为一丢丢格式的细微差距，导致一直报错，迟迟找不出原因。最后是主题更替，官方文档漏了一处细节，我特么。。。</p>
+<h2 id="所得经验"><a href="#所得经验" class="headerlink" title="所得经验"></a>所得经验</h2><ul>
+<li>对于每一篇文档教程，要逐字逐句，不可觉得简单就跳过，因为<strong>Bug</strong>往往就隐藏在这些<strong>小细节</strong>中。</li>
+<li>执行每一个命令之后仔细检查，当前命令是否<strong>successful</strong>，注意：不要报错了，继续执行之后的代码，不然又得抓耳挠腮喽。</li>
+<li>学好英语</li>
+</ul>
+<p>认识了很多学代码的小伙伴、小姐妹，很开心！  <strong>嘿嘿嘿</strong>，冲冲冲 兄弟们。</p>
+<p>别人不给机会，那就自己创造</p>
+<h2 id="因为热爱，所以我无惧一切"><a href="#因为热爱，所以我无惧一切" class="headerlink" title="因为热爱，所以我无惧一切"></a>因为热爱，所以我无惧一切</h2><h2 id="I-will-always-belong-to-my-own！"><a href="#I-will-always-belong-to-my-own！" class="headerlink" title="I will always belong to my own！"></a>I will always belong to my own！</h2><img src="http://tva1.sinaimg.cn/large/006xl9pBly1gvvfrpn506j30zk0kg783.jpg"/>
+
+
+
+]]></content>
+      <tags>
+        <tag>博客搭建</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hello World</title>
     <url>/2021/11/24/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
@@ -343,29 +343,6 @@ print(resp.text)
       </tags>
   </entry>
   <entry>
-    <title>socke编程</title>
-    <url>/2021/12/10/socke%E7%BC%96%E7%A8%8B/</url>
-    <content><![CDATA[<p>1</p>
-<h1 id="Socket编程"><a href="#Socket编程" class="headerlink" title="Socket编程"></a><strong>Socket编程</strong></h1><ol>
-<li><p>encode：编码</p>
-</li>
-<li><p>decode：解码</p>
-</li>
-<li><h2 id="Python字节到字符串-作为概念有必要理解"><a href="#Python字节到字符串-作为概念有必要理解" class="headerlink" title="Python字节到字符串 (作为概念有必要理解)"></a>Python字节到字符串 <strong>(作为概念有必要理解)</strong></h2><p>We can convert bytes to String using bytes class decode() instance method.</p>
-<p>我们可以使用<strong>bytes类的decode（）实例方法将字节转换为String。</strong></p>
-<p>Let’s look at examples of converting a string to bytes and then bytes to string in a python program.</p>
-<p>让我们看一下在python程序中将字符串转换为字节然后将字节转换为字符串的示例。</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">【</span><br><span class="line">】s = <span class="string">&#x27;abc&#x27;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># string to bytes using bytes()</span></span><br><span class="line">b = <span class="built_in">bytes</span>(s, encoding=<span class="string">&#x27;utf-8&#x27;</span>)</span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">type</span>(b))</span><br><span class="line"><span class="built_in">print</span>(b)</span><br><span class="line"><span class="comment"># bytes to string using decode()</span></span><br><span class="line">s = b.decode()</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&#x27;Original String =&#x27;</span>, s)</span><br><span class="line">s = <span class="string">&#x27;xyz&#x27;</span></span><br><span class="line"><span class="comment"># string to bytes using encode()</span></span><br><span class="line">b = s.encode(encoding=<span class="string">&#x27;utf-8&#x27;</span>)</span><br><span class="line"><span class="built_in">print</span>(b)</span><br><span class="line">s = b.decode()</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&#x27;Original String =&#x27;</span>, s)</span><br></pre></td></tr></table></figure></li>
-</ol>
-<h2 id="概念："><a href="#概念：" class="headerlink" title="概念："></a><strong>概念：</strong></h2><p>当应用程序和TCP进行交互时，里面会有一个接口层，也就是Socket.本身不是一个协议，但是可以让他和TCP直接打交道。</p>
-<p><img src="image-20211210105536253.png" alt="image-20211210105536253"></p>
-<h2 id="步骤："><a href="#步骤：" class="headerlink" title="步骤："></a>步骤：</h2><p><img src="image-20211210105722042.png" alt="image-20211210105722042"></p>
-<h3 id="客户端：新建套接字-socket-—–-gt-连接远程服务器-connect-—–-gt-发送-接收数据-send-recv-—–-gt-关闭连接-close"><a href="#客户端：新建套接字-socket-—–-gt-连接远程服务器-connect-—–-gt-发送-接收数据-send-recv-—–-gt-关闭连接-close" class="headerlink" title="客户端：新建套接字 socket() —– &gt; 连接远程服务器 connect() —– &gt;  发送/接收数据 send/recv —– &gt;  关闭连接 close()"></a>客户端：新建套接字 <strong>socket()</strong> —– &gt; 连接远程服务器 <strong>connect()</strong> —– &gt;  发送/接收数据 send/recv —– &gt;  关闭连接 <strong>close()</strong></h3><h3 id="服务端：新建套接字-socket-——-gt-绑定端口-bind-——-gt-监听端口-listen-——-gt-阻塞等待客户连接-accept-——-gt-recv-send-接收-发送数据-——-gt-close-关闭-连接"><a href="#服务端：新建套接字-socket-——-gt-绑定端口-bind-——-gt-监听端口-listen-——-gt-阻塞等待客户连接-accept-——-gt-recv-send-接收-发送数据-——-gt-close-关闭-连接" class="headerlink" title="服务端：新建套接字 socket() ——&gt;绑定端口 bind() ——-&gt; 监听端口 listen()  ——&gt; 阻塞等待客户连接 accept() ——&gt; recv/send 接收/发送数据 ——- &gt; close  关闭  连接"></a><strong>服务端：</strong>新建套接字 socket() ——&gt;绑定端口 bind() ——-&gt; 监听端口 listen()  ——&gt; 阻塞等待客户连接 accept() ——&gt; recv/send 接收/发送数据 ——- &gt; close  关闭  连接</h3>]]></content>
-      <tags>
-        <tag>socket编程</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hello World</title>
     <url>/2016/03/30/%E5%A4%9A%E6%80%81/</url>
     <content><![CDATA[<p>#多态笔记</p>
@@ -451,13 +428,26 @@ print(resp.text)
       </tags>
   </entry>
   <entry>
-    <title>心得</title>
-    <url>/2021/11/24/%E5%BF%83%E5%BE%97/</url>
+    <title>socke编程</title>
+    <url>/2021/12/10/socke%E7%BC%96%E7%A8%8B/</url>
     <content><![CDATA[<p>1</p>
-<h1 id="读书心得"><a href="#读书心得" class="headerlink" title="读书心得"></a>读书心得</h1><p> 1.推荐书《硅谷之火》<br>    2.上大学重要的不是学习知识，而是学会如何学习知识，重要的主动学习的方法和技能。<br>    3.大学生不适合刚开始就直接创业，因为缺乏行业经验，就算勉强做成，对于长久发展来说，也不算优势。ps：积累编程经验，互联网知识，多实践。<br>    4.要有胆量去想，想好在做，不要盲目（和传习录 知行合一有点矛盾 待考证）<br>    5.要有梦想<br>    6.无需被专业不对所影响，那样就成为了被动学习，当知道了如何学习，一切just soso</p>
-]]></content>
+<h1 id="Socket编程"><a href="#Socket编程" class="headerlink" title="Socket编程"></a><strong>Socket编程</strong></h1><ol>
+<li><p>encode：编码</p>
+</li>
+<li><p>decode：解码</p>
+</li>
+<li><h2 id="Python字节到字符串-作为概念有必要理解"><a href="#Python字节到字符串-作为概念有必要理解" class="headerlink" title="Python字节到字符串 (作为概念有必要理解)"></a>Python字节到字符串 <strong>(作为概念有必要理解)</strong></h2><p>We can convert bytes to String using bytes class decode() instance method.</p>
+<p>我们可以使用<strong>bytes类的decode（）实例方法将字节转换为String。</strong></p>
+<p>Let’s look at examples of converting a string to bytes and then bytes to string in a python program.</p>
+<p>让我们看一下在python程序中将字符串转换为字节然后将字节转换为字符串的示例。</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">【</span><br><span class="line">】s = <span class="string">&#x27;abc&#x27;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># string to bytes using bytes()</span></span><br><span class="line">b = <span class="built_in">bytes</span>(s, encoding=<span class="string">&#x27;utf-8&#x27;</span>)</span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">type</span>(b))</span><br><span class="line"><span class="built_in">print</span>(b)</span><br><span class="line"><span class="comment"># bytes to string using decode()</span></span><br><span class="line">s = b.decode()</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&#x27;Original String =&#x27;</span>, s)</span><br><span class="line">s = <span class="string">&#x27;xyz&#x27;</span></span><br><span class="line"><span class="comment"># string to bytes using encode()</span></span><br><span class="line">b = s.encode(encoding=<span class="string">&#x27;utf-8&#x27;</span>)</span><br><span class="line"><span class="built_in">print</span>(b)</span><br><span class="line">s = b.decode()</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&#x27;Original String =&#x27;</span>, s)</span><br></pre></td></tr></table></figure></li>
+</ol>
+<h2 id="概念："><a href="#概念：" class="headerlink" title="概念："></a><strong>概念：</strong></h2><p>当应用程序和TCP进行交互时，里面会有一个接口层，也就是Socket.本身不是一个协议，但是可以让他和TCP直接打交道。</p>
+<p><img src="image-20211210105536253.png" alt="image-20211210105536253"></p>
+<h2 id="步骤："><a href="#步骤：" class="headerlink" title="步骤："></a>步骤：</h2><p><img src="image-20211210105722042.png" alt="image-20211210105722042"></p>
+<h3 id="客户端：新建套接字-socket-—–-gt-连接远程服务器-connect-—–-gt-发送-接收数据-send-recv-—–-gt-关闭连接-close"><a href="#客户端：新建套接字-socket-—–-gt-连接远程服务器-connect-—–-gt-发送-接收数据-send-recv-—–-gt-关闭连接-close" class="headerlink" title="客户端：新建套接字 socket() —– &gt; 连接远程服务器 connect() —– &gt;  发送/接收数据 send/recv —– &gt;  关闭连接 close()"></a>客户端：新建套接字 <strong>socket()</strong> —– &gt; 连接远程服务器 <strong>connect()</strong> —– &gt;  发送/接收数据 send/recv —– &gt;  关闭连接 <strong>close()</strong></h3><h3 id="服务端：新建套接字-socket-——-gt-绑定端口-bind-——-gt-监听端口-listen-——-gt-阻塞等待客户连接-accept-——-gt-recv-send-接收-发送数据-——-gt-close-关闭-连接"><a href="#服务端：新建套接字-socket-——-gt-绑定端口-bind-——-gt-监听端口-listen-——-gt-阻塞等待客户连接-accept-——-gt-recv-send-接收-发送数据-——-gt-close-关闭-连接" class="headerlink" title="服务端：新建套接字 socket() ——&gt;绑定端口 bind() ——-&gt; 监听端口 listen()  ——&gt; 阻塞等待客户连接 accept() ——&gt; recv/send 接收/发送数据 ——- &gt; close  关闭  连接"></a><strong>服务端：</strong>新建套接字 socket() ——&gt;绑定端口 bind() ——-&gt; 监听端口 listen()  ——&gt; 阻塞等待客户连接 accept() ——&gt; recv/send 接收/发送数据 ——- &gt; close  关闭  连接</h3>]]></content>
       <tags>
-        <tag>心得</tag>
+        <tag>socket编程</tag>
       </tags>
   </entry>
   <entry>
@@ -485,6 +475,16 @@ print(resp.text)
 ]]></content>
       <tags>
         <tag>算法题解</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>心得</title>
+    <url>/2021/11/24/%E5%BF%83%E5%BE%97/</url>
+    <content><![CDATA[<p>1</p>
+<h1 id="读书心得"><a href="#读书心得" class="headerlink" title="读书心得"></a>读书心得</h1><p> 1.推荐书《硅谷之火》<br>    2.上大学重要的不是学习知识，而是学会如何学习知识，重要的主动学习的方法和技能。<br>    3.大学生不适合刚开始就直接创业，因为缺乏行业经验，就算勉强做成，对于长久发展来说，也不算优势。ps：积累编程经验，互联网知识，多实践。<br>    4.要有胆量去想，想好在做，不要盲目（和传习录 知行合一有点矛盾 待考证）<br>    5.要有梦想<br>    6.无需被专业不对所影响，那样就成为了被动学习，当知道了如何学习，一切just soso</p>
+]]></content>
+      <tags>
+        <tag>心得</tag>
       </tags>
   </entry>
   <entry>
@@ -518,57 +518,6 @@ print(resp.text)
 <p>n = t</p>
 <h2 id="代码如下"><a href="#代码如下" class="headerlink" title="代码如下"></a>代码如下</h2><figure class="highlight java"><table><tr><td class="code"><pre><span class="line">#include &lt;iostream&gt;</span><br><span class="line">using namespace std;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> n,m,num1,num2;</span><br><span class="line">	<span class="comment">//输入两个数</span></span><br><span class="line">	<span class="keyword">int</span> t = <span class="number">1</span>;</span><br><span class="line">	cin &gt;&gt; num1 &gt;&gt; num2;</span><br><span class="line">	m = num1;</span><br><span class="line">	n = num2;</span><br><span class="line">	<span class="keyword">if</span>(m&gt;n)&#123;</span><br><span class="line">		<span class="comment">//进入循环 辗转相除</span></span><br><span class="line">		<span class="keyword">while</span>(t != <span class="number">1</span>)&#123;</span><br><span class="line">			t = m % n;</span><br><span class="line">			m = n;</span><br><span class="line">			n = t;</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="comment">//求最小公倍数</span></span><br><span class="line">		<span class="keyword">int</span> b = (num1*num2) / m; </span><br><span class="line">		cout &lt;&lt; m &lt;&lt; <span class="string">&quot; &quot;</span> &lt;&lt; b &lt;&lt;endl;</span><br><span class="line">	&#125;<span class="keyword">else</span> <span class="keyword">if</span>(m &lt; n)&#123;</span><br><span class="line">		<span class="keyword">while</span>(t!=<span class="number">0</span>)&#123;</span><br><span class="line">			t = n % m;</span><br><span class="line">			n = m;</span><br><span class="line">			m = t;</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">int</span> b = (num1*num2)/n;</span><br><span class="line">		cout &lt;&lt; n &lt;&lt; <span class="string">&quot; &quot;</span> &lt;&lt; b;</span><br><span class="line">	&#125;<span class="keyword">else</span> <span class="keyword">if</span>(m==n)&#123;</span><br><span class="line">		<span class="comment">//直接输出最小公倍数 公约数都相同</span></span><br><span class="line">		cout &lt;&lt; n &lt;&lt; <span class="string">&quot; &quot;</span> &lt;&lt; n &lt;&lt;endl;</span><br><span class="line">	&#125;</span><br><span class="line">	</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-]]></content>
-      <tags>
-        <tag>算法解题</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>阶乘求和</title>
-    <url>/2021/11/27/%E9%98%B6%E4%B9%98%E6%B1%82%E5%92%8C/</url>
-    <content><![CDATA[<h1 id="阶乘求和"><a href="#阶乘求和" class="headerlink" title="阶乘求和"></a>阶乘求和</h1><p><strong>题目描述</strong></p>
-<p>求Sn=1!+2!+3!+4!+5!+…+n!之值，其中n是一个数字(n不超过20)。</p>
-<p><strong>输入</strong></p>
-<p>n</p>
-<p><strong>输出</strong></p>
-<p>Sn的值</p>
-<p><strong>样例输入复制</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">5</span><br></pre></td></tr></table></figure>
-
-<p><strong>样例输出复制</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">153</span><br></pre></td></tr></table></figure>
-
-<p><strong>思路分析：</strong></p>
-<p>题目要求需要求阶乘的和，我们的初步想法是定义一个<strong>求阶乘的递归函数</strong>，再定义一个<strong>主函数</strong>，通过<strong>遍历</strong>，1-n将数字传入fac中，之后 加到sum里。</p>
-<p><strong>注意事项：</strong></p>
-<p>1.采取自定函数求阶乘。用递归法。需注意递归法的尽头。（在本题中，fac函数的if语句作递归法的尽头，不可省略。）</p>
-<p>2.要注意最后结果的数值范围，避免溢出发生错误。</p>
-<p>阶乘很容出现<strong>数值溢出</strong>的问题，所以我们要<strong>扩大数值的存储范围</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">类型名称      字节数  取值范围</span><br><span class="line">signed` `char`      `1    -128～+127</span><br><span class="line">short` `int`       `2    -32768～+32767</span><br><span class="line">int`          `4    -2147483648～+2147483647</span><br><span class="line">long` `int`       `4    -2147483648～+2141483647</span><br><span class="line">long` `long` `int`     `8    -9223372036854775808～+9223372036854775807</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">//long int   的简写是   long     占位符是：%ld   </span><br><span class="line">//long long int的简写是   long long   占位符是：%lld</span><br></pre></td></tr></table></figure>
-
-
-
-
-
-<h2 id="代码如下："><a href="#代码如下：" class="headerlink" title="代码如下："></a><strong>代码如下：</strong></h2><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="comment">//设计的递归函数 返回阶乘值</span></span><br><span class="line"><span class="function"><span class="keyword">long</span> <span class="keyword">int</span> <span class="title">fac</span><span class="params">(<span class="keyword">int</span> n)</span></span>&#123;        <span class="comment">//long int 避免溢出</span></span><br><span class="line">	<span class="keyword">if</span>(n==<span class="number">0</span>)&#123;</span><br><span class="line">		<span class="comment">//递归法到尽头 返回1</span></span><br><span class="line">		<span class="keyword">return</span> <span class="number">1</span>;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span>  (<span class="built_in">fac</span>(n<span class="number">-1</span>)*n);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">//主函数</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="comment">//思路:先设计一个函数求出每个阶乘</span></span><br><span class="line">	<span class="keyword">int</span> n;</span><br><span class="line">	<span class="keyword">long</span> <span class="keyword">int</span> s=<span class="number">0</span>;</span><br><span class="line">	cin &gt;&gt; n;</span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>; i&lt;=n; i++)&#123;</span><br><span class="line">		s += <span class="built_in">fac</span>(i);</span><br><span class="line">	&#125;</span><br><span class="line">	cout &lt;&lt; s &lt;&lt;endl;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 时间复杂度O(N)</span></span><br><span class="line"><span class="comment">//空间耗费多 能不用递归就不用递归</span></span><br></pre></td></tr></table></figure>
-
-
-
-<p><strong>思路二（首选）：</strong></p>
-<p>我们看第第二次循环的时候也就是2!,此时等于前一个数的阶乘*当前数</p>
-<p> 第三次循环的时候，3!= 2! * 3</p>
-<p> 第四次循环，     4!=3! * 4</p>
-<p> 1*1</p>
-<p>1*2</p>
-<p>1  * 2 *  3</p>
-<p>我们可以退出 </p>
-<p>t *=i;</p>
-<p>s +=t</p>
-<h2 id="代码如下"><a href="#代码如下" class="headerlink" title="代码如下"></a>代码如下</h2><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> n;</span><br><span class="line">    <span class="keyword">long</span> <span class="keyword">long</span> <span class="keyword">int</span> sum = <span class="number">0</span>, t = <span class="number">1</span>;</span><br><span class="line">    <span class="built_in">scanf</span>(<span class="string">&quot;%d&quot;</span>, &amp;n);</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">1</span>; i &lt;= n; i++)</span><br><span class="line">    &#123;</span><br><span class="line">        t *= i;</span><br><span class="line">        sum += t;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;%lld&quot;</span>, sum);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>推荐这个算法，时间复杂度O(n)，但是空间占用小。</p>
 ]]></content>
       <tags>
         <tag>算法解题</tag>
@@ -652,6 +601,57 @@ print(resp.text)
 ]]></content>
       <tags>
         <tag>java 数据结构</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>阶乘求和</title>
+    <url>/2021/11/27/%E9%98%B6%E4%B9%98%E6%B1%82%E5%92%8C/</url>
+    <content><![CDATA[<h1 id="阶乘求和"><a href="#阶乘求和" class="headerlink" title="阶乘求和"></a>阶乘求和</h1><p><strong>题目描述</strong></p>
+<p>求Sn=1!+2!+3!+4!+5!+…+n!之值，其中n是一个数字(n不超过20)。</p>
+<p><strong>输入</strong></p>
+<p>n</p>
+<p><strong>输出</strong></p>
+<p>Sn的值</p>
+<p><strong>样例输入复制</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">5</span><br></pre></td></tr></table></figure>
+
+<p><strong>样例输出复制</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">153</span><br></pre></td></tr></table></figure>
+
+<p><strong>思路分析：</strong></p>
+<p>题目要求需要求阶乘的和，我们的初步想法是定义一个<strong>求阶乘的递归函数</strong>，再定义一个<strong>主函数</strong>，通过<strong>遍历</strong>，1-n将数字传入fac中，之后 加到sum里。</p>
+<p><strong>注意事项：</strong></p>
+<p>1.采取自定函数求阶乘。用递归法。需注意递归法的尽头。（在本题中，fac函数的if语句作递归法的尽头，不可省略。）</p>
+<p>2.要注意最后结果的数值范围，避免溢出发生错误。</p>
+<p>阶乘很容出现<strong>数值溢出</strong>的问题，所以我们要<strong>扩大数值的存储范围</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">类型名称      字节数  取值范围</span><br><span class="line">signed` `char`      `1    -128～+127</span><br><span class="line">short` `int`       `2    -32768～+32767</span><br><span class="line">int`          `4    -2147483648～+2147483647</span><br><span class="line">long` `int`       `4    -2147483648～+2141483647</span><br><span class="line">long` `long` `int`     `8    -9223372036854775808～+9223372036854775807</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">//long int   的简写是   long     占位符是：%ld   </span><br><span class="line">//long long int的简写是   long long   占位符是：%lld</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+<h2 id="代码如下："><a href="#代码如下：" class="headerlink" title="代码如下："></a><strong>代码如下：</strong></h2><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="comment">//设计的递归函数 返回阶乘值</span></span><br><span class="line"><span class="function"><span class="keyword">long</span> <span class="keyword">int</span> <span class="title">fac</span><span class="params">(<span class="keyword">int</span> n)</span></span>&#123;        <span class="comment">//long int 避免溢出</span></span><br><span class="line">	<span class="keyword">if</span>(n==<span class="number">0</span>)&#123;</span><br><span class="line">		<span class="comment">//递归法到尽头 返回1</span></span><br><span class="line">		<span class="keyword">return</span> <span class="number">1</span>;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span>  (<span class="built_in">fac</span>(n<span class="number">-1</span>)*n);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">//主函数</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="comment">//思路:先设计一个函数求出每个阶乘</span></span><br><span class="line">	<span class="keyword">int</span> n;</span><br><span class="line">	<span class="keyword">long</span> <span class="keyword">int</span> s=<span class="number">0</span>;</span><br><span class="line">	cin &gt;&gt; n;</span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>; i&lt;=n; i++)&#123;</span><br><span class="line">		s += <span class="built_in">fac</span>(i);</span><br><span class="line">	&#125;</span><br><span class="line">	cout &lt;&lt; s &lt;&lt;endl;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 时间复杂度O(N)</span></span><br><span class="line"><span class="comment">//空间耗费多 能不用递归就不用递归</span></span><br></pre></td></tr></table></figure>
+
+
+
+<p><strong>思路二（首选）：</strong></p>
+<p>我们看第第二次循环的时候也就是2!,此时等于前一个数的阶乘*当前数</p>
+<p> 第三次循环的时候，3!= 2! * 3</p>
+<p> 第四次循环，     4!=3! * 4</p>
+<p> 1*1</p>
+<p>1*2</p>
+<p>1  * 2 *  3</p>
+<p>我们可以退出 </p>
+<p>t *=i;</p>
+<p>s +=t</p>
+<h2 id="代码如下"><a href="#代码如下" class="headerlink" title="代码如下"></a>代码如下</h2><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> n;</span><br><span class="line">    <span class="keyword">long</span> <span class="keyword">long</span> <span class="keyword">int</span> sum = <span class="number">0</span>, t = <span class="number">1</span>;</span><br><span class="line">    <span class="built_in">scanf</span>(<span class="string">&quot;%d&quot;</span>, &amp;n);</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">1</span>; i &lt;= n; i++)</span><br><span class="line">    &#123;</span><br><span class="line">        t *= i;</span><br><span class="line">        sum += t;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;%lld&quot;</span>, sum);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>推荐这个算法，时间复杂度O(n)，但是空间占用小。</p>
+]]></content>
+      <tags>
+        <tag>算法解题</tag>
       </tags>
   </entry>
 </search>
