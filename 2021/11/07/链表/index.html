@@ -1,139 +1,162 @@
-<!DOCTYPE html>
-<html lang="en">
-    <!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
-  <meta name="color-scheme" content="light dark">
-  
-  <title>链表 - Hexo</title>
-  
-    <link rel="shortcut icon" href="/favicon.png">
-  
-  
-    <link rel='manifest' href='/manifest.json'>
-  
-
-  
-<link rel="stylesheet" href="/css/var.css">
-
-  
-<link rel="stylesheet" href="/css/main.css">
-
-  
-<link rel="stylesheet" href="/css/typography.css">
-
-  
-<link rel="stylesheet" href="/css/code-highlighting.css">
-
-  
-<link rel="stylesheet" href="/css/components.css">
-
-  
-<link rel="stylesheet" href="/css/nav.css">
-
-  
-<link rel="stylesheet" href="/css/paginator.css">
-
-  
-<link rel="stylesheet" href="/css/footer.css">
-
-  
-<link rel="stylesheet" href="/css/post-list.css">
-
-  
-<link rel="stylesheet" href="/css/waline.css">
-
-  
-  
-  
-<link rel="stylesheet" href="/css/post.css">
-
-  
-
-  
+	<link rel="bookmark"  type="image/x-icon"  href="/img/logo_miccall.png"/>
+	<link rel="shortcut icon" href="/img/logo_miccall.png">
+	
+			    <title>
+    Hexo
+    </title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="/css/mic_main.css" />
+    <link rel="stylesheet" href="/css/dropdownMenu.css" />
+    <meta name="keywords" content="miccall" />
     
-<script src="https://cdn.jsdelivr.net/npm/js-cookie@rc/dist/js.cookie.min.js"></script>
- 
+    	<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+	 
+    <noscript>
+        <link rel="stylesheet" href="/css/noscript.css" />
+    </noscript>
+    <style type="text/css">
+        body:before {
+          content: ' ';
+          position: fixed;
+          top: 0;
+          background: url('/img/bg.jpg') center 0 no-repeat;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          background-size: cover; 
+        }
+    </style>
+
+			    
+  
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+          processEscapes: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+        }
+      });
+    </script>
+
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for (i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+      });
+    </script>
+    <script async type="text/javascript" src="//cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
   
 
-  
+
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/jquery.scrollex.min.js"></script>
+    <script src="/js/jquery.scrolly.min.js"></script>
+    <script src="/js/skel.min.js"></script>
+    <script src="/js/util.js"></script>
+    <script src="/js/main.js"></script>
+	
 <meta name="generator" content="Hexo 5.4.0"></head>
-    <body data-color-scheme="auto">
-        <nav id="theme-nav">
-    <div class="inner">
-        <a class="title" href="/">Blog</a>
-        <div class="nav-arrow"></div>
-        <div class="nav-items">
-            <a class="nav-item nav-item-home" href="/">Home</a>
-            
-            
-            <a class="nav-item" href="/archives">Archives</a>
-            
-            
-            
-            <a class="nav-item" href="/friends">Friends</a>
-            
-            
-            
-            <a class="nav-item" href="/projects">Projects</a>
-            
-            
-            
-            <a class="nav-item" href="/about">About</a>
-            
-            
-            
-            <a class="nav-item nav-item-github nav-item-icon" href="https://github.com/MrWillCom" target="_blank">&nbsp;</a>
-            
-            
-            
-            <a class="nav-item nav-item-codepen nav-item-icon" href="https://codepen.io/mrwillcom" target="_blank">&nbsp;</a>
-            
-            
-            
-            <a class="nav-item nav-item-patreon nav-item-icon" href="https://www.patreon.com/MrWillCom" target="_blank">&nbsp;</a>
-            
-            
-            
-            <a class="nav-item nav-item-mastodon nav-item-icon" href="https://noc.social/@MrWillCom" target="_blank">&nbsp;</a>
-            
-            
-        </div>
-    </div>
+    
+		
+<!-- Layouts -->
+
+
+
+<!--  代码渲染  -->
+<link rel="stylesheet" href="/css/prism_coy.css" />
+<link rel="stylesheet" href="/css/typo.css" />
+<!-- 文章页 -->
+<body class="is-loading">
+    <!-- Wrapper 外包 s-->
+    <div id="wrapper" class="fade-in">
+        <!-- Intro 头部显示 s -->
+        <!-- Intro 头部显示 e -->
+        <!-- Header 头部logo start -->
+        <header id="header">
+    <a href="/" class="logo">MICCALL</a>
+</header>
+        <!-- Nav 导航条 start -->
+        <nav id="nav" class="special" >
+            <ul class="menu links" >
+			<!-- Homepage  主页  --> 
+			<li >
+	            <a href="/" rel="nofollow">主页</a>
+	        </li>
+			<!-- categories_name  分类   --> 
+	        
+	        <li class="active">
+	            <a href="#s1">分类</a>
+	                    <ul class="submenu">
+	                        <li>
+	                        
+	                    </ul>
+	        </li>
+	        
+	        <!-- archives  归档   --> 
+	        
+	        
+		        <!-- Pages 自定义   -->
+		        
+		        <li>
+		            <a href="/about/" title="简历">
+		                简历
+		            </a>
+		        </li>
+		        
+		        <li>
+		            <a href="/group/" title="团队">
+		                团队
+		            </a>
+		        </li>
+		        
+		        <li>
+		            <a href="/gallery/" title="图库">
+		                图库
+		            </a>
+		        </li>
+		        
+		        <li>
+		            <a href="/tag/" title="标签">
+		                标签
+		            </a>
+		        </li>
+		        
+
+
+            </ul>
+            <!-- icons 图标   -->
+			<ul class="icons">
+                    
+                    <li>
+                        <a title="github" href="https://github.com/miccall" target="_blank" rel="noopener">
+                            <i class="icon fa fa-github"></i>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a title="500px" href="http://500px.com" target="_blank" rel="noopener">
+                            <i class="icon fa fa-500px"></i>
+                        </a>
+                    </li>
+                    
+			</ul>
 </nav>
-        <article class="post">
-    <div class="meta">
-        
-        <div class="date" id="date">
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            <span>November</span>
-            
-            
-            <span>7,</span>
-            <span>2021</span>
-        </div>
-        
 
-        <h2 class="title">链表</h2>
-    </div>
-
-    <div class="divider"></div>
-
-    <div class="content">
-        <p>#线性表</p>
+        <div id="main" >
+            <div class ="post_page_title_img" style="height: 25rem;background-image: url();background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;overflow:hidden;" >
+                <a href="#" style="padding: 4rem 4rem 2rem 4rem ;"><h2 >链表</h2></a>
+            </div>
+            <!-- Post -->
+            <div class="typo" style="padding: 3rem;">
+                <p>#线性表</p>
 <h1 id="线性表"><a href="#线性表" class="headerlink" title="线性表"></a><strong>线性表</strong></h1><h2 id="定义：什么是线性表"><a href="#定义：什么是线性表" class="headerlink" title="定义：什么是线性表"></a>定义：什么是线性表</h2><p>线性表是N各数据元素的有限序列，最常用的是链式表达，通常也叫做线性链表或者链表。</p>
 <p>而在其中存储的数据元素，叫做<strong>结点</strong>，一个节点存储的就是一条数据记录。</p>
 <p>每个节点的的结构包括两个部分。</p>
@@ -206,95 +229,108 @@
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br><span class="line">125</span><br><span class="line">126</span><br><span class="line">127</span><br><span class="line">128</span><br><span class="line">129</span><br><span class="line">130</span><br><span class="line">131</span><br><span class="line">132</span><br><span class="line">133</span><br><span class="line">134</span><br><span class="line">135</span><br><span class="line">136</span><br><span class="line">137</span><br><span class="line">138</span><br><span class="line">139</span><br><span class="line">140</span><br><span class="line">141</span><br><span class="line">142</span><br><span class="line">143</span><br><span class="line">144</span><br><span class="line">145</span><br><span class="line">146</span><br><span class="line">147</span><br><span class="line">148</span><br><span class="line">149</span><br><span class="line">150</span><br><span class="line">151</span><br><span class="line">152</span><br><span class="line">153</span><br><span class="line">154</span><br><span class="line">155</span><br><span class="line">156</span><br><span class="line">157</span><br><span class="line">158</span><br><span class="line">159</span><br><span class="line">160</span><br><span class="line">161</span><br><span class="line">162</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> com.algorithm;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Linked</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        SingleLinkedListDemo singleLinkedListDemo = <span class="keyword">new</span> SingleLinkedListDemo();</span><br><span class="line">        <span class="comment">//添加几个节点</span></span><br><span class="line">        HeroNode node1 = <span class="keyword">new</span> HeroNode(<span class="number">1</span>, <span class="string">&quot;桥本有菜&quot;</span>);</span><br><span class="line">        HeroNode node2 = <span class="keyword">new</span> HeroNode(<span class="number">2</span>, <span class="string">&quot;波多野结衣&quot;</span>);</span><br><span class="line">        HeroNode node3 = <span class="keyword">new</span> HeroNode(<span class="number">3</span>, <span class="string">&quot;三上悠亚&quot;</span>);</span><br><span class="line">        HeroNode node4 = <span class="keyword">new</span> HeroNode(<span class="number">4</span>, <span class="string">&quot;吕布&quot;</span>);</span><br><span class="line">        HeroNode node5 = <span class="keyword">new</span> HeroNode(<span class="number">5</span>, <span class="string">&quot;凋残&quot;</span>);</span><br><span class="line">        <span class="comment">//添加节点</span></span><br><span class="line">        singleLinkedListDemo.addHeroNode(node1);</span><br><span class="line">        singleLinkedListDemo.addHeroNode(node2);</span><br><span class="line">        singleLinkedListDemo.addHeroNode(node3);</span><br><span class="line">        singleLinkedListDemo.addHeroNode(node4);</span><br><span class="line">        singleLinkedListDemo.addHeroNode(node5);</span><br><span class="line">        <span class="comment">//显示节点</span></span><br><span class="line">        singleLinkedListDemo.showList(singleLinkedListDemo.getHead());</span><br><span class="line">        System.out.println(<span class="string">&quot;我是分界线--------------&quot;</span>);</span><br><span class="line"></span><br><span class="line">        <span class="comment">//修改凋残为西施</span></span><br><span class="line">        singleLinkedListDemo.updateLinked(<span class="keyword">new</span> HeroNode(<span class="number">5</span>,<span class="string">&quot;西施&quot;</span>));</span><br><span class="line">        singleLinkedListDemo.showList(singleLinkedListDemo.getHead());</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">SingleLinkedListDemo</span></span>&#123;</span><br><span class="line">    <span class="comment">//定义一个头节点</span></span><br><span class="line"><span class="comment">//    private HeroNode head = new HeroNode(0,&quot;&quot;);</span></span><br><span class="line">    <span class="comment">//先初始化一个头结点，头结点不能动，头结点不能变化，方便找到链表的头</span></span><br><span class="line">    <span class="keyword">private</span> HeroNode head = <span class="keyword">new</span> HeroNode(<span class="number">0</span>,<span class="string">&quot;&quot;</span>);</span><br><span class="line"></span><br><span class="line">    <span class="comment">//我头节点是用来方便查找</span></span><br><span class="line">    <span class="comment">//有个方法获取头节点</span></span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> HeroNode <span class="title">getHead</span><span class="params">()</span></span>&#123;</span><br><span class="line">        <span class="keyword">return</span> head;  <span class="comment">//返回头节点</span></span><br><span class="line">    &#125;</span><br><span class="line">    <span class="comment">//添加节点</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">addHeroNode</span><span class="params">(HeroNode heroNode)</span></span>&#123;</span><br><span class="line">        <span class="comment">//因为head节点是不能动的 因此我们需要有一个辅助节点temp 来遍历</span></span><br><span class="line">        HeroNode temp = head;</span><br><span class="line">        <span class="keyword">while</span> (<span class="keyword">true</span>)&#123;</span><br><span class="line">            <span class="comment">//添加数据是从链表最后添加 如何确定最后的位置，只能节点.next，这样遍历下去，直到值位Null</span></span><br><span class="line">            <span class="keyword">if</span>(temp.next == <span class="keyword">null</span>)&#123; <span class="comment">//此时指向最后一个节点</span></span><br><span class="line">                <span class="keyword">break</span>;</span><br><span class="line">            &#125;</span><br><span class="line">            temp = temp.next;</span><br><span class="line">        &#125;</span><br><span class="line">        temp.next = heroNode;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="comment">//查看链表</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">showList</span><span class="params">(HeroNode head)</span> </span>&#123;<span class="comment">//传入头节点</span></span><br><span class="line"><span class="comment">//        判断列表是否为空</span></span><br><span class="line">        <span class="keyword">if</span>(head.next == <span class="keyword">null</span>)&#123;</span><br><span class="line">            System.out.println(<span class="string">&quot;列表为空&quot;</span>);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="comment">//因为头节点是不能动的 所以需要辅助遍历来遍历</span></span><br><span class="line">        HeroNode temp = head.next;</span><br><span class="line">        <span class="keyword">while</span> (<span class="keyword">true</span>)&#123;</span><br><span class="line">            <span class="keyword">if</span>(temp==<span class="keyword">null</span>)&#123;</span><br><span class="line">                <span class="keyword">break</span>;</span><br><span class="line">            &#125;</span><br><span class="line">            System.out.println(temp);</span><br><span class="line">            <span class="comment">//打印完之后temp后移</span></span><br><span class="line">            temp = temp.next;</span><br><span class="line"></span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="comment">//修改链表节点</span></span><br><span class="line"><span class="comment">//    1.刘备 ————&gt; 2.Zhangfei ——————&gt;3关羽</span></span><br><span class="line"><span class="comment">//    temp.id =</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">updateLinked</span><span class="params">(HeroNode heroNode)</span></span>&#123;</span><br><span class="line">        <span class="comment">//判断列表是否为空</span></span><br><span class="line">        <span class="keyword">if</span>(head.next==<span class="keyword">null</span>)&#123;</span><br><span class="line">            System.out.println(<span class="string">&quot;链表为空&quot;</span>);</span><br><span class="line">            <span class="keyword">return</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="comment">//定义一个辅助节点</span></span><br><span class="line">        HeroNode temp = head.next;</span><br><span class="line">        <span class="keyword">boolean</span> flag = <span class="keyword">false</span>;</span><br><span class="line">        <span class="keyword">while</span> (<span class="keyword">true</span>)&#123;</span><br><span class="line">            <span class="comment">//是否找到对应节点</span></span><br><span class="line"></span><br><span class="line">            <span class="keyword">if</span> (temp.id==heroNode.id)&#123;</span><br><span class="line">                flag = <span class="keyword">true</span>;</span><br><span class="line">                <span class="keyword">break</span>;</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">if</span>(temp.next==<span class="keyword">null</span>)&#123;</span><br><span class="line">                <span class="keyword">break</span>; <span class="comment">//防止空指针异常</span></span><br><span class="line">            &#125;</span><br><span class="line">            temp = temp.next;<span class="comment">//temp后移</span></span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span>(flag)&#123;</span><br><span class="line">            temp.name = heroNode.name;</span><br><span class="line">        &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">            System.out.println(<span class="string">&quot;没有找到id为&quot;</span>+heroNode.id);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="comment">//删除节点</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">delLinkedList</span><span class="params">(<span class="keyword">int</span> id)</span></span>&#123;</span><br><span class="line">        HeroNode temp = head; <span class="comment">//辅助</span></span><br><span class="line">        <span class="keyword">boolean</span> flag = <span class="keyword">false</span>;</span><br><span class="line">        <span class="comment">//找到待删除节点的前一个节点</span></span><br><span class="line">        <span class="keyword">while</span> (<span class="keyword">true</span>)&#123;</span><br><span class="line">            <span class="keyword">if</span>(temp.next==<span class="keyword">null</span>)&#123;</span><br><span class="line">                <span class="keyword">break</span>; <span class="comment">//已经到最后需要退出循环</span></span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">if</span>(temp.next.id ==id)&#123;</span><br><span class="line">                flag = <span class="keyword">true</span>;</span><br><span class="line">                <span class="keyword">break</span>;</span><br><span class="line">            &#125;</span><br><span class="line">            temp = temp.next;</span><br><span class="line">            <span class="keyword">if</span>(flag)&#123;</span><br><span class="line">                <span class="comment">//中间刚好空开一个.next</span></span><br><span class="line">                temp.next = temp.next.next;</span><br><span class="line">            &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">                System.out.println(<span class="string">&quot;没有找到id为&quot;</span>+id);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//定义一个节点类 里面放数据</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">HeroNode</span></span>&#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">int</span> id;</span><br><span class="line">    <span class="keyword">public</span> String name;</span><br><span class="line">    <span class="keyword">public</span> HeroNode next; <span class="comment">//指针 用来指向下一个节点</span></span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">HeroNode</span><span class="params">(<span class="keyword">int</span> id, String name)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">this</span>.id = id;</span><br><span class="line">        <span class="keyword">this</span>.name = name;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> String <span class="title">toString</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="string">&quot;HeroNode&#123;&quot;</span> +</span><br><span class="line">                <span class="string">&quot;id=&quot;</span> + id +</span><br><span class="line">                <span class="string">&quot;, name=&#x27;&quot;</span> + name + <span class="string">&#x27;\&#x27;&#x27;</span> +</span><br><span class="line">                <span class="string">&quot;,&quot;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">/////////////////艹 坚持一会 不搞完不睡觉 mdmdmdmmdmdmmdmmdmdmmdmdmdmm操操操操操操操操操操操操操哦啊从操操操艹</span></span><br><span class="line"><span class="comment">/////////////////艹 坚持一会 不搞完不睡觉 mdmdmdmmdmdmmdmmdmdmmdmdmdmm操操操操操操操操操操操操操哦啊从操操操艹</span></span><br><span class="line"><span class="comment">/////////////////艹 坚持一会 不搞完不睡觉 mdmdmdmmdmdmmdmmdmdmmdmdmdmm操操操操操操操操操操操操操哦啊从操操操艹</span></span><br><span class="line"><span class="comment">/////////////////艹 坚持一会 不搞完不睡觉 mdmdmdmmdmdmmdmmdmdmmdmdmdmm操操操操操操操操操操操操操哦啊从操操操艹</span></span><br><span class="line"><span class="comment">/////////////////艹 坚持一会 不搞完不睡觉 mdmdmdmmdmdmmdmmdmdmmdmdmdmm操操操操操操操操操操操操操哦啊从操操操艹</span></span><br><span class="line"><span class="comment">/////////////////艹 坚持一会 不搞完不睡觉 mdmdmdmmdmdmmdmmdmdmmdmdmdmm操操操操操操操操操操操操操哦啊从操操操艹</span></span><br><span class="line"><span class="comment">/////////////////艹 坚持一会 不搞完不睡觉 mdmdmdmmdmdmmdmmdmdmmdmdmdmm操操操操操操操操操操操操操哦啊从操操操艹</span></span><br><span class="line"><span class="comment">/////////////////艹 坚持一会 不搞完不睡觉 mdmdmdmmdmdmmdmmdmdmmdmdmdmm操操操操操操操操操操操操操哦啊从操操操艹</span></span><br><span class="line"><span class="comment">/////////////////艹 坚持一会 不搞完不睡觉 mdmdmdmmdmdmmdmmdmdmmdmdmdmm操操操操操操操操操操操操操哦啊从操操操艹</span></span><br><span class="line"><span class="comment">/////////////////艹 坚持一会 不搞完不睡觉 mdmdmdmmdmdmmdmmdmdmmdmdmdmm操操操操操操操操操操操操操哦啊从操操操艹</span></span><br><span class="line"><span class="comment">/////////////////艹 坚持一会 不搞完不睡觉 mdmdmdmmdmdmmdmmdmdmmdmdmdmm操操操操操操操操操操操操操哦啊从操操操艹</span></span><br><span class="line"><span class="comment">/////////////////艹 坚持一会 不搞完不睡觉 mdmdmdmmdmdmmdmmdmdmmdmdmdmm操操操操操操操操操操操操操哦啊从操操操艹</span></span><br><span class="line"><span class="comment">/////////////////艹 坚持一会 不搞完不睡觉 mdmdmdmmdmdmmdmmdmdmmdmdmdmm操操操操操操操操操操操操操哦啊从操操操艹</span></span><br><span class="line"><span class="comment">/////////////////艹 坚持一会 不搞完不睡觉 mdmdmdmmdmdmmdmmdmdmmdmdmdmm操操操操操操操操操操操操操哦啊从操操操艹</span></span><br><span class="line"><span class="comment">/////////////////艹 坚持一会 不搞完不睡觉 mdmdmdmmdmdmmdmmdmdmmdmdmdmm操操操操操操操操操操操操操哦啊从操操操艹</span></span><br><span class="line"><span class="comment">/////////////////艹 坚持一会 不搞完不睡觉 mdmdmdmmdmdmmdmmdmdmmdmdmdmm操操操操操操操操操操操操操哦啊从操操操艹</span></span><br></pre></td></tr></table></figure>
 
 
-    </div>
+            </div>
 
-    <div class="about">
-        <h1>About this Post</h1>
-        <p>This post is written by John Doe, licensed under <a
-                target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc/4.0">CC BY-NC 4.0</a>.</p>
-    </div>
+            <!-- Post Comments -->
+            
+    <!-- 使用 DISQUS_CLICK -->
+<div id="disqus-comment">
+    <div id="disqus_thread"></div>
 
-    
-        
-    
-</article>
-        <footer>
-    <div class="inner">
-        <div class="links">
-            
-            <div class="group">
-                <h4 class="title">Blog</h4>
-                
-                <a href="/" class="item">Blog</a>
-                
-                <a href="/archives" class="item">Archives</a>
-                
-                <a href="/friends" class="item">Friends</a>
-                
-                <a href="/projects" class="item">Projects</a>
-                
-                <a href="/resume" class="item">Resume</a>
-                
-                <a href="/about" class="item">About</a>
-                
-                <a href="/atom.xml" class="item">RSS</a>
-                
-            </div>
-            
-            <div class="group">
-                <h4 class="title">Projects</h4>
-                
-                <a target="_blank" rel="noopener" href="https://github.com/MrWillCom/rsa-cli" class="item">RSA CLI</a>
-                
-                <a target="_blank" rel="noopener" href="https://github.com/MrWillCom/hexo-theme-cupertino" class="item">Hexo Theme Cupertino</a>
-                
-                <a target="_blank" rel="noopener" href="https://github.com/MrWillCom/a-calendar" class="item">A Calendar</a>
-                
-                <a target="_blank" rel="noopener" href="https://github.com/MrWillCom/auto-mirroring-bucket" class="item">Auto Mirroring Bucket</a>
-                
-            </div>
-            
-            <div class="group">
-                <h4 class="title">Me</h4>
-                
-                <a target="_blank" rel="noopener" href="https://github.com/MrWillCom" class="item">GitHub</a>
-                
-                <a target="_blank" rel="noopener" href="https://codepen.io/mrwillcom" class="item">CodePen</a>
-                
-                <a target="_blank" rel="noopener" href="https://www.patreon.com/MrWillCom" class="item">Patreon</a>
-                
-                <a target="_blank" rel="noopener" href="https://noc.social/@MrWillCom" class="item">Mastodon</a>
-                
-                <a href="mailto:mr.will.com@outlook.com" class="item">Email</a>
-                
-            </div>
-            
+<!-- add animation -->
+<style>
+	.disqus_click_btn {
+            line-height: 30px;
+            margin: 0;
+            min-width: 50px;
+            padding: 0 14px;
+            display: inline-block;
+            font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+            font-size: 14px;
+            font-weight: 400;
+            text-transform: uppercase;
+            letter-spacing: 0;
+            overflow: hidden;
+            will-change: box-shadow;
+            transition: box-shadow .2s cubic-bezier(.4, 0, 1, 1), background-color .2s cubic-bezier(.4, 0, .2, 1), color .2s cubic-bezier(.4, 0, .2, 1);
+            outline: 0;
+            cursor: pointer;
+            text-decoration: none;
+            text-align: center;
+            vertical-align: middle;
+            border: 0;
+            background: rgba(158, 158, 158, .2);
+            box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
+            color: #fff;
+            background-color: #7EC0EE;
+            text-shadow: 0
+        }
+</style>
+	
+<div class="btn_click_load" id="disqus_bt"> 
+    <button class="disqus_click_btn">点击查看评论</button>
+</div>
+
+<!--
+<script type="text/javascript">
+$('.btn_click_load').click(function() {
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'http-miccall-tech'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+
+    document.getElementById('disqus_bt').style.display = "none";
+});
+</script>
+-->
+<script type="text/javascript">
+    var disqus_config = function () {
+        this.page.url = 'http://example.com/2021/11/07/%E9%93%BE%E8%A1%A8/';  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = 'http://example.com/2021/11/07/%E9%93%BE%E8%A1%A8/'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+</script>
+
+<script type="text/javascript">
+    $('.btn_click_load').click(function() {  //click to load comments
+        (function() { // DON'T EDIT BELOW THIS LINE
+            var d = document;
+            var s = d.createElement('script');
+            s.src = '//http-miccall-tech.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', + new Date());
+            (d.head || d.body).appendChild(s);
+        })();
+        $('.btn_click_load').css('display','none');
+    });
+</script>
+</div>
+<style>
+    #disqus-comment{
+        background-color: #eee;
+        padding: 2pc;
+    }
+</style>
+
+
         </div>
-        <span>&copy; 2022 John Doe<br >Powered by <a href="http://hexo.io/" target="_blank">Hexo</a></span>
-        
-            <br>
-            <div class="color-scheme-toggle" role="radiogroup" id="theme-color-scheme-toggle">
-                <label>
-                    <input type="radio" value="light">
-                    <span>Light</span>
-                </label>
-                <label>
-                    <input type="radio" value="dark">
-                    <span>Dark</span>
-                </label>
-                <label>
-                    <input type="radio" value="auto">
-                    <span>Auto</span>
-                </label>
-            </div>
-        
+        <!-- Copyright 版权 start -->
+                <div id="copyright">
+            <ul>
+                <li>&copy;Powered By <a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/" style="border-bottom: none;">hexo</a></li>
+                <li>Design: <a target="_blank" rel="noopener" href="http://miccall.tech " style="border-bottom: none;">miccall</a></li>
+            </ul>
+            
+                <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>
+			
+        </div>
     </div>
-</footer>
+</body>
 
 
-        
-<script src="/js/main.js"></script>
 
-        
-    </body>
+ 	
 </html>
