@@ -469,40 +469,24 @@ print(resp.text)
       </tags>
   </entry>
   <entry>
-    <title>心得</title>
-    <url>/2021/11/24/%E5%BF%83%E5%BE%97/</url>
-    <content><![CDATA[<p>1</p>
-<h1 id="读书心得"><a href="#读书心得" class="headerlink" title="读书心得"></a>读书心得</h1><p> 1.推荐书《硅谷之火》<br>    2.上大学重要的不是学习知识，而是学会如何学习知识，重要的主动学习的方法和技能。<br>    3.大学生不适合刚开始就直接创业，因为缺乏行业经验，就算勉强做成，对于长久发展来说，也不算优势。ps：积累编程经验，互联网知识，多实践。<br>    4.要有胆量去想，想好在做，不要盲目（和传习录 知行合一有点矛盾 待考证）<br>    5.要有梦想<br>    6.无需被专业不对所影响，那样就成为了被动学习，当知道了如何学习，一切just soso</p>
+    <title>守印录6-3.md</title>
+    <url>/2022/06/03/%E5%AE%88%E5%8D%B0%E5%BD%956-3/</url>
+    <content><![CDATA[<h1 id="《守印录-6-3》"><a href="#《守印录-6-3》" class="headerlink" title="《守印录 6-3》"></a>《守印录 6-3》</h1><p>最近功夫又有所退转，反思和读书归其原因还是太相信自己，又去看了小说，想着看一会就停，没想到就停不下来了，良知指引了，反而反着它来，还是志不坚定，一点点诱惑心就不定了。外界环境，特殊情况的改变，也是私欲的一大诱因，我们不可能是在一个绝对理想的环境，有无奈，有身不由己。但是天理是不能动的啊。私欲发出来为什么可以战胜良知，究竟是不是真心为学，真的要好好反思。外界诱因也不是借口，战胜他们才是为学进步的关键。善有善报，恶有恶报，不是外在的 而是不按照良知指引，就会体现内心的不安，和对自己为学的质疑。得不是等来的，一定是要自己去克服困难，笃实、踏实的走在这条路上。经此而已。</p>
+<p>当自勉之！</p>
+<p>2022-6-3</p>
 ]]></content>
       <tags>
-        <tag>心得</tag>
+        <tag>格物</tag>
       </tags>
   </entry>
   <entry>
-    <title>数字处理与判断</title>
-    <url>/2021/11/13/%E6%95%B0%E5%AD%97%E5%A4%84%E7%90%86%E4%B8%8E%E5%88%A4%E6%96%AD/</url>
-    <content><![CDATA[<p>2</p>
-<h1 id="数字的处理与判断"><a href="#数字的处理与判断" class="headerlink" title="数字的处理与判断"></a><strong>数字的处理与判断</strong></h1><p><strong>题目描述</strong></p>
-<p>给出一个不多于5位的整数，要求 1、求出它是几位数 2、分别输出每一位数字 3、按逆序输出各位数字，例如原数为321,应输出123</p>
-<p><strong>输入</strong></p>
-<p>一个不大于5位的数字</p>
-<p><strong>输出</strong></p>
-<p>三行 第一行 位数 第二行 用空格分开的每个数字，注意最后一个数字后没有空格 第三行 按逆序输出这个数</p>
-<p>样例输入复制</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">12345</span><br></pre></td></tr></table></figure>
-
-<p>样例输出复制</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">5</span><br><span class="line">1 2 3 4 5</span><br><span class="line">54321</span><br></pre></td></tr></table></figure>
-
-<h3 id="题解："><a href="#题解：" class="headerlink" title="题解："></a>题解：</h3><p><strong>分析</strong>：这题如果按照常规思路比较麻烦，1.确定循环位数 2.循环正序输出 3. 循环逆序输出 所以我们采用字符串的</p>
-<p><strong>解题思路</strong>：</p>
-<p>将输入的数字按照字符串来存储，用strlen()得到字符串的长度 ，那么第一问就解决了</p>
-<p>然后将字符串从左到右输出 再出右往作输出 即可</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">#include&lt;iostream&gt;</span><br><span class="line">#include &lt;cstring&gt;</span><br><span class="line"><span class="comment">//注意事项：</span></span><br><span class="line"><span class="comment">//</span></span><br><span class="line"><span class="comment">//题目说数字位数不超过5，所以定义字符数组长度应不小于6</span></span><br><span class="line"><span class="comment">//</span></span><br><span class="line"><span class="comment">//因为字符串结尾还有结尾符 &#x27;\0&#x27; 占一位</span></span><br><span class="line">using namespace std;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="keyword">char</span> str[<span class="number">10</span>];<span class="comment">//	定义字符串长度为10</span></span><br><span class="line">	cin &gt;&gt; str;</span><br><span class="line">	<span class="keyword">int</span> len = strlen(str);<span class="comment">//求出字符串的长度</span></span><br><span class="line">	cout &lt;&lt; len &lt;&lt; endl;</span><br><span class="line">	<span class="comment">//从左到右遍历输出</span></span><br><span class="line"></span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; len; i++)&#123;</span><br><span class="line">		<span class="comment">//对于格式的处理</span></span><br><span class="line">		<span class="keyword">if</span>(i==<span class="number">0</span>)&#123;</span><br><span class="line">			cout &lt;&lt; str[i];</span><br><span class="line">		&#125;<span class="keyword">else</span>&#123;</span><br><span class="line">				cout &lt;&lt; <span class="string">&quot; &quot;</span> &lt;&lt; str[i];</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	cout &lt;&lt; endl;</span><br><span class="line">	<span class="comment">//逆序输出 中间没有空格</span></span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i = len-<span class="number">1</span> ; i &gt;= <span class="number">0</span>; i--)&#123;</span><br><span class="line">		cout &lt;&lt; str[i];</span><br><span class="line">	&#125;</span><br><span class="line">	cout &lt;&lt; endl;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
+    <title>心愿</title>
+    <url>/2022/02/09/%E5%BF%83%E6%84%BF/</url>
+    <content><![CDATA[<p>铁旦说心学晨思问题171:<br>2022壬寅年，你希望实现的最大愿望是什么呢？</p>
+<p>回顾2021年，是我收获最大的一年了。说来也巧，来到铁旦说心学的契机，正是因为我为学过程中，羡慕古代先贤那种有先生，有师兄。为学遇到问题可以提问，听先生传道的氛围。看了传习录，也只觉一头雾水，走进不去。我的内心极度渴望这种为学氛围。很神奇的是，当时有个师兄加了我的qq,邀请我进入了铁旦说心学这个真诚为学向道的平台。在此也真诚的感谢这位师兄和铁旦说心学这个平台。有了先生，有了师兄。为学过程中，我也在不断感受致良知，知行合一所带给我的力量，下定决心去做致良知的功夫，尽管断断续续，可也总算看到了门。<br>2022年，我有很多愿望，可仔细想想， 立志，诚心致良知一条路足以。功夫间断，我自然会去反思为什么会间断，找到这个念头，私欲，比如当我在做一件事时，却突然想到另一件事，还会去做，就会打断此时的思维，浪费了时间。那如果我能等到下次念头出来，就革除掉，专心致志，不动心。如此，对待父母，我自然能真诚尽孝，对待学习，也自然能持之以恒，读书，练字，锻炼自然也能念念不忘，必有回响。于事事物物致良知，则必事事物物的愿望都能实现。<br>2022年，我最大的愿望就是不断诚心致良知，不退转，不间断。</p>
 ]]></content>
       <tags>
-        <tag>算法题解</tag>
+        <tag>心得</tag>
       </tags>
   </entry>
   <entry>
@@ -542,16 +526,40 @@ print(resp.text)
       </tags>
   </entry>
   <entry>
-    <title>格物1.18</title>
-    <url>/2022/01/19/%E6%A0%BC%E7%89%A91-18/</url>
-    <content><![CDATA[<h1 id="格物-1-18"><a href="#格物-1-18" class="headerlink" title="格物 1.18"></a>格物 1.18</h1><p>最近几天在按照规划执行的过程中，发现了几个很严重的问题，定力不足，分心，心容易骚乱。在感到疲惫的时候，会有歇一歇的念头，可在那念头闪现中，就不知觉的拿起了手机，拿起手机，以前主要是刷哔站，知乎。<br>     现在，最容易被影响的微信 和 QQ，一回起消息就是没完没了，可不禁反思，我在这聊天过程中收获到了什么呢 反而一次次打破我的行动规划。<br>    知行合一，真难啊，良知显现出来，致良知，真难啊。<br>回想今天的一天，计划打乱是从视频会议开始，早上是正常起床，晨读，练书法，可是到了学英语的时间段，有了视频会议，等到视频会议结束，这时候我拿起手机就停不下来了。错过了英语学习，知道下午两点，开始学习java课程，可是又犯困，休息的时候，又拿起了手机，回起了消息。学习效率极低，也就两节课。之后开始学C语言，做了两题。然后江边散了部，听先生讲心学，1.世间无鬼神，2.生命很脆弱，有能力应该尽可能帮助他人。</p>
-<h2 id="明天应该怎么做？"><a href="#明天应该怎么做？" class="headerlink" title="明天应该怎么做？"></a>明天应该怎么做？</h2><p>上午严格按照计划执行，吃饭，1.10分吃完饭，不要莫手机，休息20分钟，起来学习java课程。学完之后按规划学习C语言。7-8点 自由安排学习感兴趣的，但是不能玩手机，8-9点 固定学心学，省察自己 写下反思。 剩余时间 学习java。 一有拿手机的念头，或者已经拿了。就告诉你，这个是私欲，这个念头得断，不然白规划了，知行要合一</p>
-<p>思想进步：为什么致良知能够改变命运呢，因为人很难去改变固有认知，再加上固有的环境，你的脑回路就会把你带进这个方向，而致良知，是一种去私欲的过程，你的心存乎天理，自然会改变这个轨迹。</p>
-<h2 id="师兄给的建议"><a href="#师兄给的建议" class="headerlink" title="师兄给的建议"></a>师兄给的建议</h2><p>A：师兄，在开始阶段，不要想着马上就能达到沉浸式投入学习，我这个毛病也很重，就是学个什么在一开始都想着游刃有余了。就踏踏实实的发现有分心的东西，如果是私欲，就去掉，可能去掉又会复发，就再去掉，重要的是保持功夫不断。共勉</p>
-<p>你B：说的这个再正常不过了，你现在先别考虑念虑之外的事，只要有良知一念发动你察觉到了，就听其指引立马去做。做不到你就可以省察到底是什么原因让你知行不能合一了，一直改不掉的提出来大家一起讨论</p>
+    <title>心得</title>
+    <url>/2021/11/24/%E5%BF%83%E5%BE%97/</url>
+    <content><![CDATA[<p>1</p>
+<h1 id="读书心得"><a href="#读书心得" class="headerlink" title="读书心得"></a>读书心得</h1><p> 1.推荐书《硅谷之火》<br>    2.上大学重要的不是学习知识，而是学会如何学习知识，重要的主动学习的方法和技能。<br>    3.大学生不适合刚开始就直接创业，因为缺乏行业经验，就算勉强做成，对于长久发展来说，也不算优势。ps：积累编程经验，互联网知识，多实践。<br>    4.要有胆量去想，想好在做，不要盲目（和传习录 知行合一有点矛盾 待考证）<br>    5.要有梦想<br>    6.无需被专业不对所影响，那样就成为了被动学习，当知道了如何学习，一切just soso</p>
 ]]></content>
       <tags>
-        <tag>日记内省</tag>
+        <tag>心得</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>数字处理与判断</title>
+    <url>/2021/11/13/%E6%95%B0%E5%AD%97%E5%A4%84%E7%90%86%E4%B8%8E%E5%88%A4%E6%96%AD/</url>
+    <content><![CDATA[<p>2</p>
+<h1 id="数字的处理与判断"><a href="#数字的处理与判断" class="headerlink" title="数字的处理与判断"></a><strong>数字的处理与判断</strong></h1><p><strong>题目描述</strong></p>
+<p>给出一个不多于5位的整数，要求 1、求出它是几位数 2、分别输出每一位数字 3、按逆序输出各位数字，例如原数为321,应输出123</p>
+<p><strong>输入</strong></p>
+<p>一个不大于5位的数字</p>
+<p><strong>输出</strong></p>
+<p>三行 第一行 位数 第二行 用空格分开的每个数字，注意最后一个数字后没有空格 第三行 按逆序输出这个数</p>
+<p>样例输入复制</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">12345</span><br></pre></td></tr></table></figure>
+
+<p>样例输出复制</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">5</span><br><span class="line">1 2 3 4 5</span><br><span class="line">54321</span><br></pre></td></tr></table></figure>
+
+<h3 id="题解："><a href="#题解：" class="headerlink" title="题解："></a>题解：</h3><p><strong>分析</strong>：这题如果按照常规思路比较麻烦，1.确定循环位数 2.循环正序输出 3. 循环逆序输出 所以我们采用字符串的</p>
+<p><strong>解题思路</strong>：</p>
+<p>将输入的数字按照字符串来存储，用strlen()得到字符串的长度 ，那么第一问就解决了</p>
+<p>然后将字符串从左到右输出 再出右往作输出 即可</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">#include&lt;iostream&gt;</span><br><span class="line">#include &lt;cstring&gt;</span><br><span class="line"><span class="comment">//注意事项：</span></span><br><span class="line"><span class="comment">//</span></span><br><span class="line"><span class="comment">//题目说数字位数不超过5，所以定义字符数组长度应不小于6</span></span><br><span class="line"><span class="comment">//</span></span><br><span class="line"><span class="comment">//因为字符串结尾还有结尾符 &#x27;\0&#x27; 占一位</span></span><br><span class="line">using namespace std;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="keyword">char</span> str[<span class="number">10</span>];<span class="comment">//	定义字符串长度为10</span></span><br><span class="line">	cin &gt;&gt; str;</span><br><span class="line">	<span class="keyword">int</span> len = strlen(str);<span class="comment">//求出字符串的长度</span></span><br><span class="line">	cout &lt;&lt; len &lt;&lt; endl;</span><br><span class="line">	<span class="comment">//从左到右遍历输出</span></span><br><span class="line"></span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; len; i++)&#123;</span><br><span class="line">		<span class="comment">//对于格式的处理</span></span><br><span class="line">		<span class="keyword">if</span>(i==<span class="number">0</span>)&#123;</span><br><span class="line">			cout &lt;&lt; str[i];</span><br><span class="line">		&#125;<span class="keyword">else</span>&#123;</span><br><span class="line">				cout &lt;&lt; <span class="string">&quot; &quot;</span> &lt;&lt; str[i];</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	cout &lt;&lt; endl;</span><br><span class="line">	<span class="comment">//逆序输出 中间没有空格</span></span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i = len-<span class="number">1</span> ; i &gt;= <span class="number">0</span>; i--)&#123;</span><br><span class="line">		cout &lt;&lt; str[i];</span><br><span class="line">	&#125;</span><br><span class="line">	cout &lt;&lt; endl;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <tags>
+        <tag>算法题解</tag>
       </tags>
   </entry>
   <entry>
@@ -565,6 +573,19 @@ print(resp.text)
 ]]></content>
       <tags>
         <tag>格物</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>格物1.18</title>
+    <url>/2022/01/19/%E6%A0%BC%E7%89%A91-18/</url>
+    <content><![CDATA[<h1 id="格物-1-18"><a href="#格物-1-18" class="headerlink" title="格物 1.18"></a>格物 1.18</h1><p>最近几天在按照规划执行的过程中，发现了几个很严重的问题，定力不足，分心，心容易骚乱。在感到疲惫的时候，会有歇一歇的念头，可在那念头闪现中，就不知觉的拿起了手机，拿起手机，以前主要是刷哔站，知乎。<br>     现在，最容易被影响的微信 和 QQ，一回起消息就是没完没了，可不禁反思，我在这聊天过程中收获到了什么呢 反而一次次打破我的行动规划。<br>    知行合一，真难啊，良知显现出来，致良知，真难啊。<br>回想今天的一天，计划打乱是从视频会议开始，早上是正常起床，晨读，练书法，可是到了学英语的时间段，有了视频会议，等到视频会议结束，这时候我拿起手机就停不下来了。错过了英语学习，知道下午两点，开始学习java课程，可是又犯困，休息的时候，又拿起了手机，回起了消息。学习效率极低，也就两节课。之后开始学C语言，做了两题。然后江边散了部，听先生讲心学，1.世间无鬼神，2.生命很脆弱，有能力应该尽可能帮助他人。</p>
+<h2 id="明天应该怎么做？"><a href="#明天应该怎么做？" class="headerlink" title="明天应该怎么做？"></a>明天应该怎么做？</h2><p>上午严格按照计划执行，吃饭，1.10分吃完饭，不要莫手机，休息20分钟，起来学习java课程。学完之后按规划学习C语言。7-8点 自由安排学习感兴趣的，但是不能玩手机，8-9点 固定学心学，省察自己 写下反思。 剩余时间 学习java。 一有拿手机的念头，或者已经拿了。就告诉你，这个是私欲，这个念头得断，不然白规划了，知行要合一</p>
+<p>思想进步：为什么致良知能够改变命运呢，因为人很难去改变固有认知，再加上固有的环境，你的脑回路就会把你带进这个方向，而致良知，是一种去私欲的过程，你的心存乎天理，自然会改变这个轨迹。</p>
+<h2 id="师兄给的建议"><a href="#师兄给的建议" class="headerlink" title="师兄给的建议"></a>师兄给的建议</h2><p>A：师兄，在开始阶段，不要想着马上就能达到沉浸式投入学习，我这个毛病也很重，就是学个什么在一开始都想着游刃有余了。就踏踏实实的发现有分心的东西，如果是私欲，就去掉，可能去掉又会复发，就再去掉，重要的是保持功夫不断。共勉</p>
+<p>你B：说的这个再正常不过了，你现在先别考虑念虑之外的事，只要有良知一念发动你察觉到了，就听其指引立马去做。做不到你就可以省察到底是什么原因让你知行不能合一了，一直改不掉的提出来大家一起讨论</p>
+]]></content>
+      <tags>
+        <tag>日记内省</tag>
       </tags>
   </entry>
   <entry>
@@ -590,6 +611,58 @@ print(resp.text)
       </tags>
   </entry>
   <entry>
+    <title>格物2.15</title>
+    <url>/2022/02/15/%E6%A0%BC%E7%89%A92-15/</url>
+    <content><![CDATA[<p>w</p>
+<h1 id="守印录-2-15"><a href="#守印录-2-15" class="headerlink" title="守印录 2.15"></a><strong>守印录 2.15</strong></h1><p>​       我在思考，我光写下每天的反思，落不下去行动？真的有意义吗。就拿这一段时间分析下吧，八点回到家，九点半，才开始写下这篇反思，我的时间去哪了？一个半小时，全在手机上，我没有玩游戏，全在网络的聊天上，想到这，不禁沉默，我得到了什么？美其名曰，探讨人生，和别人交流，一会聊聊这，一会聊聊那，再和别人争辩争辩。实际上什么收获也没有，君子慎于言，那我这么做，为啥呢？是因为手机？我想不是，还是不要给自己找个外在的借口了，还是心不宁静，心不安定，不能做到不动心。手机是工具，可是到底是它在支配我？还是我在支配它？</p>
+<p>​    每天都在同样的事情上烦恼，在同样的心境下荒废时间。外界环境的一丢丢改变，就能让我平静的心，瞬间找个借口，悄悄的溜走。这个根，在哪里，不把这个根拔了，还是如此。信誓旦旦列好明天的计划，明天却依旧如旧。三天打鱼，两天晒网，无数无数个借口，无数无数个不为学的理由。你究竟是怎么了？</p>
+<p>​    一个念头，拿起手机，2秒，打开它，再放下，可能就是2个小时。什么可以给我力量，让我战胜它，唯有致良知，唯有立志。可这个志，为什么迟迟立不下来呢？难道真的是只有通过系统为学才能认识到吗？人的本源没有力量吗，离周五还有三天，这三天，我要尝试打败它。</p>
+<p>​    意外翻到铁旦老师的写的诗，质朴而真诚，诗里面，仿佛人变模糊了，又好像能透过它看到清澈的灵魂。没想到铁旦先生还有如此有趣的一面。我也决定，开始写诗，不管水平如何，就让它成为我生命中的一部分吧。</p>
+<p>​    晚安。</p>
+]]></content>
+      <tags>
+        <tag>内省</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>格物2.14</title>
+    <url>/2022/02/14/%E6%A0%BC%E7%89%A92-14/</url>
+    <content><![CDATA[<p>s</p>
+<h2 id="守印录2-14"><a href="#守印录2-14" class="headerlink" title="守印录2.14"></a>守印录2.14</h2><p>​       先对近期为学做个反思，昨天听了先生的讲解，发现我对于致良知的感受还是存在偏差，我以为我在致良知，实际上也执着于外物-私欲了，我把良知和私欲进行了区分，这一切都是我主观臆想，却觉察不到，还自以为我是在做致良知的功夫。越学越感觉自己无知。想要真正为学，唯有立志，唯有跟随先生系统为学。立志了，良知还会断吗？ 所以我下定决心报名心学班继续为学，我相信这是我此生最明智的决定。</p>
+<p>​      然后刚才在知乎看到一个癌症患者的自诉，现在已经不再人世，让我久久不能平静，那撕心裂肺的痛苦，母亲望着孩子那深深崩裂的伤口，我真的隔着文字都能感受到悲痛。为什么世间会有病症，为什么要让这些善良的人经历如此磨难？她们所恳求的只是能够像正常人一样生活，甚至生来残疾也比受这磨难要好。</p>
+<p>​    不由联想到我这两天的放纵，在各种群里吹吹水，睡睡觉，发发呆。我是在浪费自己的生命啊。有多少人羡慕着这样的生活，不知生，焉知死。我想要我的生命生如夏花般绚烂，我想要活的精彩。我想立下志，可是还是心不诚。尝试着立下计划，尝试用过番茄钟专注学习，可是终究还是外物，如果没有一个恳切之志，终究会断。私欲一直都在，剪不断，理还乱。</p>
+<p>​    曾在晨课回答的心学难不难问题，那时我初学心学，意气风发，自信之至，不就致良知嘛，现在想想，致良知这三个字，就够我学一辈子的了。果然越学感觉自己越无知，为自己的洋洋自得而惭愧。</p>
+<p>​      晚安 希望岁月静好 所有人幸福平安。</p>
+]]></content>
+      <tags>
+        <tag>内省</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>格物2.16</title>
+    <url>/2022/02/16/%E6%A0%BC%E7%89%A92-16/</url>
+    <content><![CDATA[<p>s</p>
+<h1 id="守印录2-16"><a href="#守印录2-16" class="headerlink" title="守印录2.16"></a><strong>守印录2.16</strong></h1><p>   今天的为学安排还算紧凑，专注了380分钟。手机的使用克制了许多，需注意的是，起床不要拖沓。睁眼就起来，多睡只会让精神更疲惫，要养成良好的生活习惯。其次，我发现，为学时会常常疲惫，有困意，这可能是晚上作息不规律睡太晚而造成的，精神不佳，自然容易会被私欲影响，在10点半之前必须放下手机入睡。</p>
+<p>​    君子欲讷于言而敏于行，这是我最容易出现的问题，这是为人处世的准则，言多必失，要少说空话，大话，说再多，也只是纸上谈兵。孔夫子也一向告诫弟子话应当少说。勿起义气之争，昨天还在与一个群里的人的争辩，今在此反思，这种行为所产生的原因，在于表现的心理，也就是爱名，这种行为很不可取，须时刻警醒自己，学问深的人，都是少说多做，不与人呈口色之争。同时也需亲贤人，远小人。双方争辩，此时出现一个第三方，他的话语却刺激二人争辩下去，这种人必须远离。</p>
+<p>​    今天话少了，事做多了，明显感受到内心的丰足，而不是如前几天的空虚。但在没有什么外在任务安排的时候，内心也很容易陷入娱乐，比如刚刚就刷视频刷了一个小时，这是我不齿的，既然知道克制不住，那就不去打开它。</p>
+<p>​    现在我更多的是事后反省，需要培养意念发动出，便致良知的功夫。为学的路很长，我愿行在路上！</p>
+<p>​    苟日新，又日新，日日新。</p>
+]]></content>
+      <tags>
+        <tag>内省</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>格物2.17</title>
+    <url>/2022/02/17/%E6%A0%BC%E7%89%A92-17/</url>
+    <content><![CDATA[<p>1</p>
+<p>最近反思过多，可能会出现先生说的反思过度的情况，需要将前几天的反思自己体会，去践行，哪怕做不到也要比昨天更好。已经反思的问题，需要下功夫去做。不能光在嘴头上和笔头上。期待每天的心学课程。</p>
+]]></content>
+      <tags>
+        <tag>内省</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>格物2-8</title>
     <url>/2022/02/08/%E6%A0%BC%E7%89%A92-8/</url>
     <content><![CDATA[<p>1</p>
@@ -603,54 +676,15 @@ print(resp.text)
       </tags>
   </entry>
   <entry>
-    <title>阶乘求和</title>
-    <url>/2021/11/27/%E9%98%B6%E4%B9%98%E6%B1%82%E5%92%8C/</url>
-    <content><![CDATA[<h1 id="阶乘求和"><a href="#阶乘求和" class="headerlink" title="阶乘求和"></a>阶乘求和</h1><p><strong>题目描述</strong></p>
-<p>求Sn=1!+2!+3!+4!+5!+…+n!之值，其中n是一个数字(n不超过20)。</p>
-<p><strong>输入</strong></p>
-<p>n</p>
-<p><strong>输出</strong></p>
-<p>Sn的值</p>
-<p><strong>样例输入复制</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">5</span><br></pre></td></tr></table></figure>
-
-<p><strong>样例输出复制</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">153</span><br></pre></td></tr></table></figure>
-
-<p><strong>思路分析：</strong></p>
-<p>题目要求需要求阶乘的和，我们的初步想法是定义一个<strong>求阶乘的递归函数</strong>，再定义一个<strong>主函数</strong>，通过<strong>遍历</strong>，1-n将数字传入fac中，之后 加到sum里。</p>
-<p><strong>注意事项：</strong></p>
-<p>1.采取自定函数求阶乘。用递归法。需注意递归法的尽头。（在本题中，fac函数的if语句作递归法的尽头，不可省略。）</p>
-<p>2.要注意最后结果的数值范围，避免溢出发生错误。</p>
-<p>阶乘很容出现<strong>数值溢出</strong>的问题，所以我们要<strong>扩大数值的存储范围</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">类型名称      字节数  取值范围</span><br><span class="line">signed` `char`      `1    -128～+127</span><br><span class="line">short` `int`       `2    -32768～+32767</span><br><span class="line">int`          `4    -2147483648～+2147483647</span><br><span class="line">long` `int`       `4    -2147483648～+2141483647</span><br><span class="line">long` `long` `int`     `8    -9223372036854775808～+9223372036854775807</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">//long int   的简写是   long     占位符是：%ld   </span><br><span class="line">//long long int的简写是   long long   占位符是：%lld</span><br></pre></td></tr></table></figure>
-
-
-
-
-
-<h2 id="代码如下："><a href="#代码如下：" class="headerlink" title="代码如下："></a><strong>代码如下：</strong></h2><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="comment">//设计的递归函数 返回阶乘值</span></span><br><span class="line"><span class="function"><span class="keyword">long</span> <span class="keyword">int</span> <span class="title">fac</span><span class="params">(<span class="keyword">int</span> n)</span></span>&#123;        <span class="comment">//long int 避免溢出</span></span><br><span class="line">	<span class="keyword">if</span>(n==<span class="number">0</span>)&#123;</span><br><span class="line">		<span class="comment">//递归法到尽头 返回1</span></span><br><span class="line">		<span class="keyword">return</span> <span class="number">1</span>;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span>  (<span class="built_in">fac</span>(n<span class="number">-1</span>)*n);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">//主函数</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="comment">//思路:先设计一个函数求出每个阶乘</span></span><br><span class="line">	<span class="keyword">int</span> n;</span><br><span class="line">	<span class="keyword">long</span> <span class="keyword">int</span> s=<span class="number">0</span>;</span><br><span class="line">	cin &gt;&gt; n;</span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>; i&lt;=n; i++)&#123;</span><br><span class="line">		s += <span class="built_in">fac</span>(i);</span><br><span class="line">	&#125;</span><br><span class="line">	cout &lt;&lt; s &lt;&lt;endl;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 时间复杂度O(N)</span></span><br><span class="line"><span class="comment">//空间耗费多 能不用递归就不用递归</span></span><br></pre></td></tr></table></figure>
-
-
-
-<p><strong>思路二（首选）：</strong></p>
-<p>我们看第第二次循环的时候也就是2!,此时等于前一个数的阶乘*当前数</p>
-<p> 第三次循环的时候，3!= 2! * 3</p>
-<p> 第四次循环，     4!=3! * 4</p>
-<p> 1*1</p>
-<p>1*2</p>
-<p>1  * 2 *  3</p>
-<p>我们可以退出 </p>
-<p>t *=i;</p>
-<p>s +=t</p>
-<h2 id="代码如下"><a href="#代码如下" class="headerlink" title="代码如下"></a>代码如下</h2><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> n;</span><br><span class="line">    <span class="keyword">long</span> <span class="keyword">long</span> <span class="keyword">int</span> sum = <span class="number">0</span>, t = <span class="number">1</span>;</span><br><span class="line">    <span class="built_in">scanf</span>(<span class="string">&quot;%d&quot;</span>, &amp;n);</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">1</span>; i &lt;= n; i++)</span><br><span class="line">    &#123;</span><br><span class="line">        t *= i;</span><br><span class="line">        sum += t;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;%lld&quot;</span>, sum);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>推荐这个算法，时间复杂度O(n)，但是空间占用小。</p>
+    <title>格物2.9</title>
+    <url>/2022/02/09/%E6%A0%BC%E7%89%A92-9/</url>
+    <content><![CDATA[<p>1</p>
+<p>又是一天，先来分析一下今天的成果，又有了哪些私欲，不错的地方是当内心有了要玩手机的念头，可以丢掉它。但今天又表现出另外两个问题，其一在于，学习学累了，休息的时候，这个时候拿着手机就很难停下来，要该怎么做呢，也许只能通过致良知，当拿起手机，就会不自觉的刷进视频，给自己定的，就看完这个视频就结束，可是事实往往不是这样，拿起来就停不下来了，这是一个很大得问题，明天需要注意，当休息时，我能不能发下此时的手机呢，走一走吗，活动活动。而不是给自己找个接口，其二，在于运动，又难坚持了，原因在于下雨，可是又因为内心私欲的隔绝，本可以在家就可以运动的，却也做不到。确实挺难的，那我这个志，是不是又算作废了呢。 </p>
+<p>我现在内心比较在意的有几件事，只有不剩下十天不到就要开学了，我的英语学习却还差的老远，C语言刷题还没有找到方法，感觉还是那种看着就很累的感觉，这怎么才能打破，我总是想，我数学不好，可能这需要天赋吧。可是真是这样吗，我并没有在其中投入很多时间，我的英语三级，我的java学习，蓝桥杯，都断断续续，感觉不到很大的进步，一天的时间又到哪里去了，看不见，摸不着。害。完了现在脑子里又不知道写些啥了，啦啦啦。还是不不知道，似乎大脑空了，有了，今天在起床的时候，我告诉我立了志，既然醒了，就要马上起来，不要赖床，明天就先从这一件小事做起吧，希望可以成功。这还是很大的一个挑战，为什么内心总能给自己找到一个借口，为什么内心总会被遮蔽。我看王阳明心学的时候发现阳明先生用的很多剿灭盗贼的策略，都能在抗日战争，解放战争里看到影子，我推测，毛主席应该也是学习过王阳明心学的吧，还有，伟人喜欢写诗，这个诗是非物像化的，最真诚的表达，什么时候，我也可以达到这种写诗的境界呢。</p>
+<p>还有呢，我许下了个心愿，我希望我可以笃实的致良知，不中断，未来是美好的，等着我去探索，其次我发现我现在最容易坚持的事情是什么，是读书，是练字，仿佛他已经成为了我生活的一部分。要是学习，技能上的也像这样一样就好了啊。 晚安 愿世界安好。</p>
 ]]></content>
       <tags>
-        <tag>算法解题</tag>
+        <tag>心得</tag>
       </tags>
   </entry>
   <entry>
@@ -734,97 +768,54 @@ print(resp.text)
       </tags>
   </entry>
   <entry>
-    <title>心愿</title>
-    <url>/2022/02/09/%E5%BF%83%E6%84%BF/</url>
-    <content><![CDATA[<p>铁旦说心学晨思问题171:<br>2022壬寅年，你希望实现的最大愿望是什么呢？</p>
-<p>回顾2021年，是我收获最大的一年了。说来也巧，来到铁旦说心学的契机，正是因为我为学过程中，羡慕古代先贤那种有先生，有师兄。为学遇到问题可以提问，听先生传道的氛围。看了传习录，也只觉一头雾水，走进不去。我的内心极度渴望这种为学氛围。很神奇的是，当时有个师兄加了我的qq,邀请我进入了铁旦说心学这个真诚为学向道的平台。在此也真诚的感谢这位师兄和铁旦说心学这个平台。有了先生，有了师兄。为学过程中，我也在不断感受致良知，知行合一所带给我的力量，下定决心去做致良知的功夫，尽管断断续续，可也总算看到了门。<br>2022年，我有很多愿望，可仔细想想， 立志，诚心致良知一条路足以。功夫间断，我自然会去反思为什么会间断，找到这个念头，私欲，比如当我在做一件事时，却突然想到另一件事，还会去做，就会打断此时的思维，浪费了时间。那如果我能等到下次念头出来，就革除掉，专心致志，不动心。如此，对待父母，我自然能真诚尽孝，对待学习，也自然能持之以恒，读书，练字，锻炼自然也能念念不忘，必有回响。于事事物物致良知，则必事事物物的愿望都能实现。<br>2022年，我最大的愿望就是不断诚心致良知，不退转，不间断。</p>
+    <title>阶乘求和</title>
+    <url>/2021/11/27/%E9%98%B6%E4%B9%98%E6%B1%82%E5%92%8C/</url>
+    <content><![CDATA[<h1 id="阶乘求和"><a href="#阶乘求和" class="headerlink" title="阶乘求和"></a>阶乘求和</h1><p><strong>题目描述</strong></p>
+<p>求Sn=1!+2!+3!+4!+5!+…+n!之值，其中n是一个数字(n不超过20)。</p>
+<p><strong>输入</strong></p>
+<p>n</p>
+<p><strong>输出</strong></p>
+<p>Sn的值</p>
+<p><strong>样例输入复制</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">5</span><br></pre></td></tr></table></figure>
+
+<p><strong>样例输出复制</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">153</span><br></pre></td></tr></table></figure>
+
+<p><strong>思路分析：</strong></p>
+<p>题目要求需要求阶乘的和，我们的初步想法是定义一个<strong>求阶乘的递归函数</strong>，再定义一个<strong>主函数</strong>，通过<strong>遍历</strong>，1-n将数字传入fac中，之后 加到sum里。</p>
+<p><strong>注意事项：</strong></p>
+<p>1.采取自定函数求阶乘。用递归法。需注意递归法的尽头。（在本题中，fac函数的if语句作递归法的尽头，不可省略。）</p>
+<p>2.要注意最后结果的数值范围，避免溢出发生错误。</p>
+<p>阶乘很容出现<strong>数值溢出</strong>的问题，所以我们要<strong>扩大数值的存储范围</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">类型名称      字节数  取值范围</span><br><span class="line">signed` `char`      `1    -128～+127</span><br><span class="line">short` `int`       `2    -32768～+32767</span><br><span class="line">int`          `4    -2147483648～+2147483647</span><br><span class="line">long` `int`       `4    -2147483648～+2141483647</span><br><span class="line">long` `long` `int`     `8    -9223372036854775808～+9223372036854775807</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">//long int   的简写是   long     占位符是：%ld   </span><br><span class="line">//long long int的简写是   long long   占位符是：%lld</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+<h2 id="代码如下："><a href="#代码如下：" class="headerlink" title="代码如下："></a><strong>代码如下：</strong></h2><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="comment">//设计的递归函数 返回阶乘值</span></span><br><span class="line"><span class="function"><span class="keyword">long</span> <span class="keyword">int</span> <span class="title">fac</span><span class="params">(<span class="keyword">int</span> n)</span></span>&#123;        <span class="comment">//long int 避免溢出</span></span><br><span class="line">	<span class="keyword">if</span>(n==<span class="number">0</span>)&#123;</span><br><span class="line">		<span class="comment">//递归法到尽头 返回1</span></span><br><span class="line">		<span class="keyword">return</span> <span class="number">1</span>;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span>  (<span class="built_in">fac</span>(n<span class="number">-1</span>)*n);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">//主函数</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="comment">//思路:先设计一个函数求出每个阶乘</span></span><br><span class="line">	<span class="keyword">int</span> n;</span><br><span class="line">	<span class="keyword">long</span> <span class="keyword">int</span> s=<span class="number">0</span>;</span><br><span class="line">	cin &gt;&gt; n;</span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>; i&lt;=n; i++)&#123;</span><br><span class="line">		s += <span class="built_in">fac</span>(i);</span><br><span class="line">	&#125;</span><br><span class="line">	cout &lt;&lt; s &lt;&lt;endl;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 时间复杂度O(N)</span></span><br><span class="line"><span class="comment">//空间耗费多 能不用递归就不用递归</span></span><br></pre></td></tr></table></figure>
+
+
+
+<p><strong>思路二（首选）：</strong></p>
+<p>我们看第第二次循环的时候也就是2!,此时等于前一个数的阶乘*当前数</p>
+<p> 第三次循环的时候，3!= 2! * 3</p>
+<p> 第四次循环，     4!=3! * 4</p>
+<p> 1*1</p>
+<p>1*2</p>
+<p>1  * 2 *  3</p>
+<p>我们可以退出 </p>
+<p>t *=i;</p>
+<p>s +=t</p>
+<h2 id="代码如下"><a href="#代码如下" class="headerlink" title="代码如下"></a>代码如下</h2><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> n;</span><br><span class="line">    <span class="keyword">long</span> <span class="keyword">long</span> <span class="keyword">int</span> sum = <span class="number">0</span>, t = <span class="number">1</span>;</span><br><span class="line">    <span class="built_in">scanf</span>(<span class="string">&quot;%d&quot;</span>, &amp;n);</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">1</span>; i &lt;= n; i++)</span><br><span class="line">    &#123;</span><br><span class="line">        t *= i;</span><br><span class="line">        sum += t;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;%lld&quot;</span>, sum);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>推荐这个算法，时间复杂度O(n)，但是空间占用小。</p>
 ]]></content>
       <tags>
-        <tag>心得</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>格物2.9</title>
-    <url>/2022/02/09/%E6%A0%BC%E7%89%A92-9/</url>
-    <content><![CDATA[<p>1</p>
-<p>又是一天，先来分析一下今天的成果，又有了哪些私欲，不错的地方是当内心有了要玩手机的念头，可以丢掉它。但今天又表现出另外两个问题，其一在于，学习学累了，休息的时候，这个时候拿着手机就很难停下来，要该怎么做呢，也许只能通过致良知，当拿起手机，就会不自觉的刷进视频，给自己定的，就看完这个视频就结束，可是事实往往不是这样，拿起来就停不下来了，这是一个很大得问题，明天需要注意，当休息时，我能不能发下此时的手机呢，走一走吗，活动活动。而不是给自己找个接口，其二，在于运动，又难坚持了，原因在于下雨，可是又因为内心私欲的隔绝，本可以在家就可以运动的，却也做不到。确实挺难的，那我这个志，是不是又算作废了呢。 </p>
-<p>我现在内心比较在意的有几件事，只有不剩下十天不到就要开学了，我的英语学习却还差的老远，C语言刷题还没有找到方法，感觉还是那种看着就很累的感觉，这怎么才能打破，我总是想，我数学不好，可能这需要天赋吧。可是真是这样吗，我并没有在其中投入很多时间，我的英语三级，我的java学习，蓝桥杯，都断断续续，感觉不到很大的进步，一天的时间又到哪里去了，看不见，摸不着。害。完了现在脑子里又不知道写些啥了，啦啦啦。还是不不知道，似乎大脑空了，有了，今天在起床的时候，我告诉我立了志，既然醒了，就要马上起来，不要赖床，明天就先从这一件小事做起吧，希望可以成功。这还是很大的一个挑战，为什么内心总能给自己找到一个借口，为什么内心总会被遮蔽。我看王阳明心学的时候发现阳明先生用的很多剿灭盗贼的策略，都能在抗日战争，解放战争里看到影子，我推测，毛主席应该也是学习过王阳明心学的吧，还有，伟人喜欢写诗，这个诗是非物像化的，最真诚的表达，什么时候，我也可以达到这种写诗的境界呢。</p>
-<p>还有呢，我许下了个心愿，我希望我可以笃实的致良知，不中断，未来是美好的，等着我去探索，其次我发现我现在最容易坚持的事情是什么，是读书，是练字，仿佛他已经成为了我生活的一部分。要是学习，技能上的也像这样一样就好了啊。 晚安 愿世界安好。</p>
-]]></content>
-      <tags>
-        <tag>心得</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>格物2.14</title>
-    <url>/2022/02/14/%E6%A0%BC%E7%89%A92-14/</url>
-    <content><![CDATA[<p>s</p>
-<h2 id="守印录2-14"><a href="#守印录2-14" class="headerlink" title="守印录2.14"></a>守印录2.14</h2><p>​       先对近期为学做个反思，昨天听了先生的讲解，发现我对于致良知的感受还是存在偏差，我以为我在致良知，实际上也执着于外物-私欲了，我把良知和私欲进行了区分，这一切都是我主观臆想，却觉察不到，还自以为我是在做致良知的功夫。越学越感觉自己无知。想要真正为学，唯有立志，唯有跟随先生系统为学。立志了，良知还会断吗？ 所以我下定决心报名心学班继续为学，我相信这是我此生最明智的决定。</p>
-<p>​      然后刚才在知乎看到一个癌症患者的自诉，现在已经不再人世，让我久久不能平静，那撕心裂肺的痛苦，母亲望着孩子那深深崩裂的伤口，我真的隔着文字都能感受到悲痛。为什么世间会有病症，为什么要让这些善良的人经历如此磨难？她们所恳求的只是能够像正常人一样生活，甚至生来残疾也比受这磨难要好。</p>
-<p>​    不由联想到我这两天的放纵，在各种群里吹吹水，睡睡觉，发发呆。我是在浪费自己的生命啊。有多少人羡慕着这样的生活，不知生，焉知死。我想要我的生命生如夏花般绚烂，我想要活的精彩。我想立下志，可是还是心不诚。尝试着立下计划，尝试用过番茄钟专注学习，可是终究还是外物，如果没有一个恳切之志，终究会断。私欲一直都在，剪不断，理还乱。</p>
-<p>​    曾在晨课回答的心学难不难问题，那时我初学心学，意气风发，自信之至，不就致良知嘛，现在想想，致良知这三个字，就够我学一辈子的了。果然越学感觉自己越无知，为自己的洋洋自得而惭愧。</p>
-<p>​      晚安 希望岁月静好 所有人幸福平安。</p>
-]]></content>
-      <tags>
-        <tag>内省</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>格物2.15</title>
-    <url>/2022/02/15/%E6%A0%BC%E7%89%A92-15/</url>
-    <content><![CDATA[<p>w</p>
-<h1 id="守印录-2-15"><a href="#守印录-2-15" class="headerlink" title="守印录 2.15"></a><strong>守印录 2.15</strong></h1><p>​       我在思考，我光写下每天的反思，落不下去行动？真的有意义吗。就拿这一段时间分析下吧，八点回到家，九点半，才开始写下这篇反思，我的时间去哪了？一个半小时，全在手机上，我没有玩游戏，全在网络的聊天上，想到这，不禁沉默，我得到了什么？美其名曰，探讨人生，和别人交流，一会聊聊这，一会聊聊那，再和别人争辩争辩。实际上什么收获也没有，君子慎于言，那我这么做，为啥呢？是因为手机？我想不是，还是不要给自己找个外在的借口了，还是心不宁静，心不安定，不能做到不动心。手机是工具，可是到底是它在支配我？还是我在支配它？</p>
-<p>​    每天都在同样的事情上烦恼，在同样的心境下荒废时间。外界环境的一丢丢改变，就能让我平静的心，瞬间找个借口，悄悄的溜走。这个根，在哪里，不把这个根拔了，还是如此。信誓旦旦列好明天的计划，明天却依旧如旧。三天打鱼，两天晒网，无数无数个借口，无数无数个不为学的理由。你究竟是怎么了？</p>
-<p>​    一个念头，拿起手机，2秒，打开它，再放下，可能就是2个小时。什么可以给我力量，让我战胜它，唯有致良知，唯有立志。可这个志，为什么迟迟立不下来呢？难道真的是只有通过系统为学才能认识到吗？人的本源没有力量吗，离周五还有三天，这三天，我要尝试打败它。</p>
-<p>​    意外翻到铁旦老师的写的诗，质朴而真诚，诗里面，仿佛人变模糊了，又好像能透过它看到清澈的灵魂。没想到铁旦先生还有如此有趣的一面。我也决定，开始写诗，不管水平如何，就让它成为我生命中的一部分吧。</p>
-<p>​    晚安。</p>
-]]></content>
-      <tags>
-        <tag>内省</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>格物2.16</title>
-    <url>/2022/02/16/%E6%A0%BC%E7%89%A92-16/</url>
-    <content><![CDATA[<p>s</p>
-<h1 id="守印录2-16"><a href="#守印录2-16" class="headerlink" title="守印录2.16"></a><strong>守印录2.16</strong></h1><p>   今天的为学安排还算紧凑，专注了380分钟。手机的使用克制了许多，需注意的是，起床不要拖沓。睁眼就起来，多睡只会让精神更疲惫，要养成良好的生活习惯。其次，我发现，为学时会常常疲惫，有困意，这可能是晚上作息不规律睡太晚而造成的，精神不佳，自然容易会被私欲影响，在10点半之前必须放下手机入睡。</p>
-<p>​    君子欲讷于言而敏于行，这是我最容易出现的问题，这是为人处世的准则，言多必失，要少说空话，大话，说再多，也只是纸上谈兵。孔夫子也一向告诫弟子话应当少说。勿起义气之争，昨天还在与一个群里的人的争辩，今在此反思，这种行为所产生的原因，在于表现的心理，也就是爱名，这种行为很不可取，须时刻警醒自己，学问深的人，都是少说多做，不与人呈口色之争。同时也需亲贤人，远小人。双方争辩，此时出现一个第三方，他的话语却刺激二人争辩下去，这种人必须远离。</p>
-<p>​    今天话少了，事做多了，明显感受到内心的丰足，而不是如前几天的空虚。但在没有什么外在任务安排的时候，内心也很容易陷入娱乐，比如刚刚就刷视频刷了一个小时，这是我不齿的，既然知道克制不住，那就不去打开它。</p>
-<p>​    现在我更多的是事后反省，需要培养意念发动出，便致良知的功夫。为学的路很长，我愿行在路上！</p>
-<p>​    苟日新，又日新，日日新。</p>
-]]></content>
-      <tags>
-        <tag>内省</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>格物2.17</title>
-    <url>/2022/02/17/%E6%A0%BC%E7%89%A92-17/</url>
-    <content><![CDATA[<p>1</p>
-<p>最近反思过多，可能会出现先生说的反思过度的情况，需要将前几天的反思自己体会，去践行，哪怕做不到也要比昨天更好。已经反思的问题，需要下功夫去做。不能光在嘴头上和笔头上。期待每天的心学课程。</p>
-]]></content>
-      <tags>
-        <tag>内省</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>守印录6-3.md</title>
-    <url>/2022/06/03/%E5%AE%88%E5%8D%B0%E5%BD%953-18/</url>
-    <content><![CDATA[<h1 id="《守印录-6-3》"><a href="#《守印录-6-3》" class="headerlink" title="《守印录 6-3》"></a>《守印录 6-3》</h1><p>最近功夫又有所退转，反思和读书归其原因还是太相信自己，又去看了小说，想着看一会就停，没想到就停不下来了，良知指引了，反而反着它来，还是志不坚定，一点点诱惑心就不定了。外界环境，特殊情况的改变，也是私欲的一大诱因，我们不可能是在一个绝对理想的环境，有无奈，有身不由己。但是天理是不能动的啊。私欲发出来为什么可以战胜良知，究竟是不是真心为学，真的要好好反思。外界诱因也不是借口，战胜他们才是为学进步的关键。善有善报，恶有恶报，不是外在的 而是不按照良知指引，就会体现内心的不安，和对自己为学的质疑。得不是等来的，一定是要自己去克服困难，笃实、踏实的走在这条路上。经此而已。</p>
-<p>当自勉之！</p>
-<p>2022-6-3</p>
-]]></content>
-      <tags>
-        <tag>格物</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>守印录3.18.md</title>
-    <url>/2022/06/03/%E5%AE%88%E5%8D%B0%E5%BD%956-3/</url>
-    <content><![CDATA[<p>1</p>
-<h1 id="《守印录-3-18》"><a href="#《守印录-3-18》" class="headerlink" title="《守印录 3-18》"></a>《守印录 3-18》</h1>]]></content>
-      <tags>
-        <tag>格物</tag>
+        <tag>算法解题</tag>
       </tags>
   </entry>
 </search>
